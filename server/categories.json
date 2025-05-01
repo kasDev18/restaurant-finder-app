@@ -1,0 +1,4934 @@
+[
+  {
+    "category_label": "Arts and Entertainment",
+    "category_id": "4d4b7104d754a06370d81259"
+  },
+  {
+    "category_label": "Amusement Parks",
+    "category_id": "4bf58dd8d48988d182941735"
+  },
+  {
+    "category_label": "Attractions",
+    "category_id": "5109983191d435c0d71c2bb1"
+  },
+  {
+    "category_label": "Aquariums",
+    "category_id": "4fceea171983d5d06c3e9823"
+  },
+  {
+    "category_label": "Arcades",
+    "category_id": "4bf58dd8d48988d1e1931735"
+  },
+  {
+    "category_label": "Art Galleries",
+    "category_id": "4bf58dd8d48988d1e2931735"
+  },
+  {
+    "category_label": "Bingo Centers",
+    "category_id": "63be6904847c3692a84b9b20"
+  },
+  {
+    "category_label": "Bowling Alleys",
+    "category_id": "4bf58dd8d48988d1e4931735"
+  },
+  {
+    "category_label": "Carnivals",
+    "category_id": "63be6904847c3692a84b9b21"
+  },
+  {
+    "category_label": "Casinos",
+    "category_id": "4bf58dd8d48988d17c941735"
+  },
+  {
+    "category_label": "Circuses",
+    "category_id": "52e81612bcbc57f1066b79e7"
+  },
+  {
+    "category_label": "Comedy Clubs",
+    "category_id": "4bf58dd8d48988d18e941735"
+  },
+  {
+    "category_label": "Country Clubs",
+    "category_id": "63be6904847c3692a84b9b22"
+  },
+  {
+    "category_label": "Country Dance Clubs",
+    "category_id": "52e81612bcbc57f1066b79ef"
+  },
+  {
+    "category_label": "Dance Halls",
+    "category_id": "63be6904847c3692a84b9b23"
+  },
+  {
+    "category_label": "Disc Golf Courses",
+    "category_id": "63be6904847c3692a84b9c03"
+  },
+  {
+    "category_label": "Disc Golfs",
+    "category_id": "52e81612bcbc57f1066b79e8"
+  },
+  {
+    "category_label": "Escape Rooms",
+    "category_id": "5f2c2834b6d05514c704451e"
+  },
+  {
+    "category_label": "Exhibits",
+    "category_id": "56aa371be4b08b9a8d573532"
+  },
+  {
+    "category_label": "Fairs",
+    "category_id": "4eb1daf44b900d56c88a4600"
+  },
+  {
+    "category_label": "Gaming Cafes",
+    "category_id": "4bf58dd8d48988d18d941735"
+  },
+  {
+    "category_label": "Go Kart Tracks",
+    "category_id": "52e81612bcbc57f1066b79ea"
+  },
+  {
+    "category_label": "Internet Cafes",
+    "category_id": "4bf58dd8d48988d1f0941735"
+  },
+  {
+    "category_label": "Karaoke Boxes",
+    "category_id": "5744ccdfe4b0c0459246b4bb"
+  },
+  {
+    "category_label": "Laser Tag Centers",
+    "category_id": "52e81612bcbc57f1066b79e6"
+  },
+  {
+    "category_label": "Mini Golf Courses",
+    "category_id": "52e81612bcbc57f1066b79eb"
+  },
+  {
+    "category_label": "Movie Theaters",
+    "category_id": "4bf58dd8d48988d17f941735"
+  },
+  {
+    "category_label": "Drive-in Theaters",
+    "category_id": "56aa371be4b08b9a8d5734de"
+  },
+  {
+    "category_label": "Indie Movie Theaters",
+    "category_id": "4bf58dd8d48988d17e941735"
+  },
+  {
+    "category_label": "Museums",
+    "category_id": "4bf58dd8d48988d181941735"
+  },
+  {
+    "category_label": "Art Museums",
+    "category_id": "4bf58dd8d48988d18f941735"
+  },
+  {
+    "category_label": "Erotic Museums",
+    "category_id": "559acbe0498e472f1a53fa23"
+  },
+  {
+    "category_label": "History Museums",
+    "category_id": "4bf58dd8d48988d190941735"
+  },
+  {
+    "category_label": "Science Museums",
+    "category_id": "4bf58dd8d48988d191941735"
+  },
+  {
+    "category_label": "Night Clubs",
+    "category_id": "4bf58dd8d48988d11f941735"
+  },
+  {
+    "category_label": "Pachinko Parlors",
+    "category_id": "5744ccdfe4b0c0459246b4b8"
+  },
+  {
+    "category_label": "Party Centers",
+    "category_id": "63be6904847c3692a84b9b24"
+  },
+  {
+    "category_label": "Performing Arts Venues",
+    "category_id": "4bf58dd8d48988d1f2931735"
+  },
+  {
+    "category_label": "Amphitheaters",
+    "category_id": "56aa371be4b08b9a8d5734db"
+  },
+  {
+    "category_label": "Concert Halls",
+    "category_id": "5032792091d4c4b30a586d5c"
+  },
+  {
+    "category_label": "Indie Theaters",
+    "category_id": "4bf58dd8d48988d135941735"
+  },
+  {
+    "category_label": "Music Venues",
+    "category_id": "4bf58dd8d48988d1e5931735"
+  },
+  {
+    "category_label": "Jazz and Blues Venues",
+    "category_id": "4bf58dd8d48988d1e7931735"
+  },
+  {
+    "category_label": "Rock Clubs",
+    "category_id": "4bf58dd8d48988d1e9931735"
+  },
+  {
+    "category_label": "Opera Houses",
+    "category_id": "4bf58dd8d48988d136941735"
+  },
+  {
+    "category_label": "Theaters",
+    "category_id": "4bf58dd8d48988d137941735"
+  },
+  {
+    "category_label": "Planetariums",
+    "category_id": "4bf58dd8d48988d192941735"
+  },
+  {
+    "category_label": "Pool Halls",
+    "category_id": "4bf58dd8d48988d1e3931735"
+  },
+  {
+    "category_label": "Psychics and Astrologers",
+    "category_id": "52f2ab2ebcbc57f1066b8b43"
+  },
+  {
+    "category_label": "Public Art",
+    "category_id": "507c8c4091d498d9fc8c67a9"
+  },
+  {
+    "category_label": "Outdoor Sculptures",
+    "category_id": "52e81612bcbc57f1066b79ed"
+  },
+  {
+    "category_label": "Street Arts",
+    "category_id": "52e81612bcbc57f1066b79ee"
+  },
+  {
+    "category_label": "Roller Rinks",
+    "category_id": "52e81612bcbc57f1066b79e9"
+  },
+  {
+    "category_label": "Salsa Clubs",
+    "category_id": "52e81612bcbc57f1066b79ec"
+  },
+  {
+    "category_label": "Samba Schools",
+    "category_id": "56aa371be4b08b9a8d5734f9"
+  },
+  {
+    "category_label": "Stadiums",
+    "category_id": "4bf58dd8d48988d184941735"
+  },
+  {
+    "category_label": "Baseball Stadiums",
+    "category_id": "4bf58dd8d48988d18c941735"
+  },
+  {
+    "category_label": "Basketball Stadiums",
+    "category_id": "4bf58dd8d48988d18b941735"
+  },
+  {
+    "category_label": "Football Stadiums",
+    "category_id": "4bf58dd8d48988d189941735"
+  },
+  {
+    "category_label": "Hockey Stadiums",
+    "category_id": "4bf58dd8d48988d185941735"
+  },
+  {
+    "category_label": "Rugby Stadiums",
+    "category_id": "56aa371be4b08b9a8d573556"
+  },
+  {
+    "category_label": "Soccer Stadiums",
+    "category_id": "4bf58dd8d48988d188941735"
+  },
+  {
+    "category_label": "Tennis Stadiums",
+    "category_id": "4e39a891bd410d7aed40cbc2"
+  },
+  {
+    "category_label": "Track Stadiums",
+    "category_id": "4bf58dd8d48988d187941735"
+  },
+  {
+    "category_label": "Strip Clubs",
+    "category_id": "4bf58dd8d48988d1d6941735"
+  },
+  {
+    "category_label": "Ticket Sellers",
+    "category_id": "63be6904847c3692a84b9b25"
+  },
+  {
+    "category_label": "VR Cafes",
+    "category_id": "5f2c14a5b6d05514c7042eb7"
+  },
+  {
+    "category_label": "Water Parks",
+    "category_id": "4bf58dd8d48988d193941735"
+  },
+  {
+    "category_label": "Zoos",
+    "category_id": "4bf58dd8d48988d17b941735"
+  },
+  {
+    "category_label": "Zoo Exhibits",
+    "category_id": "58daa1558bbb0b01f18ec1fd"
+  },
+  {
+    "category_label": "Business and Professional Services",
+    "category_id": "4d4b7105d754a06375d81259"
+  },
+  {
+    "category_label": "Advertising Agencies",
+    "category_id": "52e81612bcbc57f1066b7a3d"
+  },
+  {
+    "category_label": "Agriculture and Forestry Services",
+    "category_id": "63be6904847c3692a84b9b26"
+  },
+  {
+    "category_label": "Appraisers",
+    "category_id": "63be6904847c3692a84b9b27"
+  },
+  {
+    "category_label": "Architecture Firms",
+    "category_id": "5fac002599ce226e27fe72e5"
+  },
+  {
+    "category_label": "Art Restoration Services",
+    "category_id": "63be6904847c3692a84b9b28"
+  },
+  {
+    "category_label": "Art Studios",
+    "category_id": "58daa1558bbb0b01f18ec1d6"
+  },
+  {
+    "category_label": "Audiovisual Services",
+    "category_id": "63be6904847c3692a84b9b29"
+  },
+  {
+    "category_label": "Auditoriums",
+    "category_id": "4bf58dd8d48988d173941735"
+  },
+  {
+    "category_label": "Automation and Control Systems",
+    "category_id": "63be6904847c3692a84b9b2a"
+  },
+  {
+    "category_label": "Automotive Services",
+    "category_id": "63be6904847c3692a84b9b2b"
+  },
+  {
+    "category_label": "Automotive Repair Shops",
+    "category_id": "52f2ab2ebcbc57f1066b8b44"
+  },
+  {
+    "category_label": "Car Washes and Details",
+    "category_id": "4f04ae1f2fb6e1c99f3db0ba"
+  },
+  {
+    "category_label": "Motorcycle Repair Shops",
+    "category_id": "63be6904847c3692a84b9b2c"
+  },
+  {
+    "category_label": "Oil Change Services",
+    "category_id": "63be6904847c3692a84b9b2d"
+  },
+  {
+    "category_label": "Smog Check Shops",
+    "category_id": "63be6904847c3692a84b9b2e"
+  },
+  {
+    "category_label": "Tire Repair Shops",
+    "category_id": "63be6904847c3692a84b9b2f"
+  },
+  {
+    "category_label": "Towing Services",
+    "category_id": "63be6904847c3692a84b9b30"
+  },
+  {
+    "category_label": "Transmissions Shops",
+    "category_id": "63be6904847c3692a84b9b31"
+  },
+  {
+    "category_label": "Vehicle Inspection Stations",
+    "category_id": "5f2c1e0db6d05514c70436d4"
+  },
+  {
+    "category_label": "Ballrooms",
+    "category_id": "56aa371be4b08b9a8d5734cf"
+  },
+  {
+    "category_label": "Business Centers",
+    "category_id": "56aa371be4b08b9a8d573517"
+  },
+  {
+    "category_label": "Business Services",
+    "category_id": "5453de49498eade8af355881"
+  },
+  {
+    "category_label": "Career Counselors",
+    "category_id": "63be6904847c3692a84b9b33"
+  },
+  {
+    "category_label": "Chemicals and Gasses Manufacturers",
+    "category_id": "63be6904847c3692a84b9b34"
+  },
+  {
+    "category_label": "Child Care Services",
+    "category_id": "5744ccdfe4b0c0459246b4c7"
+  },
+  {
+    "category_label": "Daycares",
+    "category_id": "4f4532974b9074f6e4fb0104"
+  },
+  {
+    "category_label": "Computer Repair Services",
+    "category_id": "63be6904847c3692a84b9b35"
+  },
+  {
+    "category_label": "Construction",
+    "category_id": "63be6904847c3692a84b9b36"
+  },
+  {
+    "category_label": "Convention Centers",
+    "category_id": "4bf58dd8d48988d1ff931735"
+  },
+  {
+    "category_label": "Conference Rooms",
+    "category_id": "4bf58dd8d48988d100941735"
+  },
+  {
+    "category_label": "Creative Services",
+    "category_id": "63be6904847c3692a84b9b37"
+  },
+  {
+    "category_label": "Design Studios",
+    "category_id": "4bf58dd8d48988d1f4941735"
+  },
+  {
+    "category_label": "Direct Mail and Email Marketing Services",
+    "category_id": "63be6904847c3692a84b9b38"
+  },
+  {
+    "category_label": "Distribution Centers",
+    "category_id": "52e81612bcbc57f1066b7a37"
+  },
+  {
+    "category_label": "Electrical Equipment Suppliers",
+    "category_id": "63be6904847c3692a84b9b39"
+  },
+  {
+    "category_label": "Employment Agencies",
+    "category_id": "52f2ab2ebcbc57f1066b8b57"
+  },
+  {
+    "category_label": "Engineers",
+    "category_id": "63be6904847c3692a84b9b3a"
+  },
+  {
+    "category_label": "Entertainment Agencies",
+    "category_id": "63be6904847c3692a84b9b3b"
+  },
+  {
+    "category_label": "Entertainment Services",
+    "category_id": "56aa371be4b08b9a8d573554"
+  },
+  {
+    "category_label": "Equipment Rental Services",
+    "category_id": "63be6904847c3692a84b9b3c"
+  },
+  {
+    "category_label": "Event Services",
+    "category_id": "5454152e498ef71e2b9132c6"
+  },
+  {
+    "category_label": "Event Spaces",
+    "category_id": "4bf58dd8d48988d171941735"
+  },
+  {
+    "category_label": "Factories",
+    "category_id": "4eb1bea83b7b6f98df247e06"
+  },
+  {
+    "category_label": "Film Studios",
+    "category_id": "56aa371be4b08b9a8d573523"
+  },
+  {
+    "category_label": "Financial Services",
+    "category_id": "63be6904847c3692a84b9b3d"
+  },
+  {
+    "category_label": "Accounting and Bookkeeping Services",
+    "category_id": "63be6904847c3692a84b9b3e"
+  },
+  {
+    "category_label": "Banking and Finances",
+    "category_id": "63be6904847c3692a84b9b3f"
+  },
+  {
+    "category_label": "ATMs",
+    "category_id": "52f2ab2ebcbc57f1066b8b56"
+  },
+  {
+    "category_label": "Banks",
+    "category_id": "4bf58dd8d48988d10a951735"
+  },
+  {
+    "category_label": "Credit Unions",
+    "category_id": "5032850891d4c4b30a586d62"
+  },
+  {
+    "category_label": "Business Brokers",
+    "category_id": "63be6904847c3692a84b9b40"
+  },
+  {
+    "category_label": "Check Cashing Services",
+    "category_id": "52f2ab2ebcbc57f1066b8b2d"
+  },
+  {
+    "category_label": "Collections Services",
+    "category_id": "63be6904847c3692a84b9b41"
+  },
+  {
+    "category_label": "Credit Counseling and Bankruptcy Services",
+    "category_id": "63be6904847c3692a84b9b42"
+  },
+  {
+    "category_label": "Currency Exchanges",
+    "category_id": "5744ccdfe4b0c0459246b4be"
+  },
+  {
+    "category_label": "Financial Planners",
+    "category_id": "63be6904847c3692a84b9b43"
+  },
+  {
+    "category_label": "Loans Agencies",
+    "category_id": "63be6904847c3692a84b9b44"
+  },
+  {
+    "category_label": "Stock Brokers",
+    "category_id": "63be6904847c3692a84b9b45"
+  },
+  {
+    "category_label": "Food and Beverage Services",
+    "category_id": "56aa371be4b08b9a8d573550"
+  },
+  {
+    "category_label": "Caterers",
+    "category_id": "63be6904847c3692a84b9b46"
+  },
+  {
+    "category_label": "Food Distribution Centers",
+    "category_id": "63be6904847c3692a84b9b47"
+  },
+  {
+    "category_label": "Funeral Homes",
+    "category_id": "4f4534884b9074f6e4fb0174"
+  },
+  {
+    "category_label": "Geological Services",
+    "category_id": "63be6904847c3692a84b9b48"
+  },
+  {
+    "category_label": "Health and Beauty Services",
+    "category_id": "54541900498ea6ccd0202697"
+  },
+  {
+    "category_label": "Barbershops",
+    "category_id": "63be6904847c3692a84b9b49"
+  },
+  {
+    "category_label": "Bath Houses",
+    "category_id": "52e81612bcbc57f1066b7a27"
+  },
+  {
+    "category_label": "Body Piercing Shops",
+    "category_id": "52f2ab2ebcbc57f1066b8b20"
+  },
+  {
+    "category_label": "Dry Cleaners",
+    "category_id": "52f2ab2ebcbc57f1066b8b1d"
+  },
+  {
+    "category_label": "Hair Removal Services",
+    "category_id": "63be6904847c3692a84b9b4a"
+  },
+  {
+    "category_label": "Hair Salons",
+    "category_id": "4bf58dd8d48988d110951735"
+  },
+  {
+    "category_label": "Massage Clinics",
+    "category_id": "52f2ab2ebcbc57f1066b8b3c"
+  },
+  {
+    "category_label": "Nail Salons",
+    "category_id": "4f04aa0c2fb6e1c99f3db0b8"
+  },
+  {
+    "category_label": "Skin Care Clinics",
+    "category_id": "63be6904847c3692a84b9b4b"
+  },
+  {
+    "category_label": "Spas",
+    "category_id": "4bf58dd8d48988d1ed941735"
+  },
+  {
+    "category_label": "Tanning Salons",
+    "category_id": "4d1cf8421a97d635ce361c31"
+  },
+  {
+    "category_label": "Tattoo Parlors",
+    "category_id": "4bf58dd8d48988d1de931735"
+  },
+  {
+    "category_label": "Home Improvement Services",
+    "category_id": "63be6904847c3692a84b9b58"
+  },
+  {
+    "category_label": "Bathroom Contractors",
+    "category_id": "63be6904847c3692a84b9b4c"
+  },
+  {
+    "category_label": "Carpenters",
+    "category_id": "63be6904847c3692a84b9b4d"
+  },
+  {
+    "category_label": "Carpet and Flooring Contractors",
+    "category_id": "63be6904847c3692a84b9b4e"
+  },
+  {
+    "category_label": "Chimney Sweeps",
+    "category_id": "63be6904847c3692a84b9b4f"
+  },
+  {
+    "category_label": "Deck and Patio Contractors",
+    "category_id": "63be6904847c3692a84b9b50"
+  },
+  {
+    "category_label": "Doors and Windows Contractors",
+    "category_id": "63be6904847c3692a84b9b51"
+  },
+  {
+    "category_label": "Electricians",
+    "category_id": "63be6904847c3692a84b9b52"
+  },
+  {
+    "category_label": "Fence Contractors",
+    "category_id": "63be6904847c3692a84b9b53"
+  },
+  {
+    "category_label": "Garage Door Suppliers",
+    "category_id": "63be6904847c3692a84b9b54"
+  },
+  {
+    "category_label": "General Contractors",
+    "category_id": "63be6904847c3692a84b9b55"
+  },
+  {
+    "category_label": "Heating, Ventilating and Air Conditioning Contractors",
+    "category_id": "63be6904847c3692a84b9b56"
+  },
+  {
+    "category_label": "Home Inspections",
+    "category_id": "63be6904847c3692a84b9b57"
+  },
+  {
+    "category_label": "Home Services",
+    "category_id": "545419b1498ea6ccd0202f58"
+  },
+  {
+    "category_label": "Interior Designers",
+    "category_id": "63be6904847c3692a84b9b59"
+  },
+  {
+    "category_label": "Kitchen Remodelers",
+    "category_id": "63be6904847c3692a84b9b5a"
+  },
+  {
+    "category_label": "Landscaper and Gardeners",
+    "category_id": "63be6904847c3692a84b9b5b"
+  },
+  {
+    "category_label": "Movers",
+    "category_id": "63be6904847c3692a84b9b5c"
+  },
+  {
+    "category_label": "Painters",
+    "category_id": "63be6904847c3692a84b9b5d"
+  },
+  {
+    "category_label": "Pest Control Services",
+    "category_id": "63be6904847c3692a84b9b5e"
+  },
+  {
+    "category_label": "Plumbers",
+    "category_id": "63be6904847c3692a84b9b5f"
+  },
+  {
+    "category_label": "Professional Cleaning Services",
+    "category_id": "63be6904847c3692a84b9b60"
+  },
+  {
+    "category_label": "Roofers",
+    "category_id": "63be6904847c3692a84b9b61"
+  },
+  {
+    "category_label": "Sewer Contractors",
+    "category_id": "63be6904847c3692a84b9b62"
+  },
+  {
+    "category_label": "Swimming Pool Maintenance and Services",
+    "category_id": "63be6904847c3692a84b9b63"
+  },
+  {
+    "category_label": "Tree Services",
+    "category_id": "63be6904847c3692a84b9b64"
+  },
+  {
+    "category_label": "Upholstery Services",
+    "category_id": "63be6904847c3692a84b9b65"
+  },
+  {
+    "category_label": "Human Resources Agencies",
+    "category_id": "63be6904847c3692a84b9b66"
+  },
+  {
+    "category_label": "Import and Export Services",
+    "category_id": "63be6904847c3692a84b9b67"
+  },
+  {
+    "category_label": "Industrial Equipment Suppliers",
+    "category_id": "63be6904847c3692a84b9b68"
+  },
+  {
+    "category_label": "Industrial Estates",
+    "category_id": "56aa371be4b08b9a8d5734d7"
+  },
+  {
+    "category_label": "Insurance Agencies",
+    "category_id": "58daa1558bbb0b01f18ec1f1"
+  },
+  {
+    "category_label": "Laboratories",
+    "category_id": "63be6904847c3692a84b9b69"
+  },
+  {
+    "category_label": "Laundromats",
+    "category_id": "52f2ab2ebcbc57f1066b8b33"
+  },
+  {
+    "category_label": "Laundry Services",
+    "category_id": "4bf58dd8d48988d1fc941735"
+  },
+  {
+    "category_label": "Leather Suppliers",
+    "category_id": "63be6904847c3692a84b9b6a"
+  },
+  {
+    "category_label": "Legal Services",
+    "category_id": "63be6904847c3692a84b9b6b"
+  },
+  {
+    "category_label": "Immigration Attorneys",
+    "category_id": "63be6904847c3692a84b9b6c"
+  },
+  {
+    "category_label": "Law Offices",
+    "category_id": "52f2ab2ebcbc57f1066b8b3f"
+  },
+  {
+    "category_label": "Notaries",
+    "category_id": "5ae95d208a6f17002ce792b2"
+  },
+  {
+    "category_label": "Locksmiths",
+    "category_id": "52f2ab2ebcbc57f1066b8b1e"
+  },
+  {
+    "category_label": "Logging Services",
+    "category_id": "63be6904847c3692a84b9b6d"
+  },
+  {
+    "category_label": "Lottery Retailers",
+    "category_id": "52f2ab2ebcbc57f1066b8b38"
+  },
+  {
+    "category_label": "Machine Shops",
+    "category_id": "63be6904847c3692a84b9b6e"
+  },
+  {
+    "category_label": "Management Consultants",
+    "category_id": "63be6904847c3692a84b9b6f"
+  },
+  {
+    "category_label": "Manufacturers",
+    "category_id": "63be6904847c3692a84b9b70"
+  },
+  {
+    "category_label": "Market Research and Consulting",
+    "category_id": "63be6904847c3692a84b9b71"
+  },
+  {
+    "category_label": "Media Agencies",
+    "category_id": "63be6904847c3692a84b9b72"
+  },
+  {
+    "category_label": "Metals Suppliers",
+    "category_id": "63be6904847c3692a84b9b73"
+  },
+  {
+    "category_label": "Mobile Companies",
+    "category_id": "63be6904847c3692a84b9b74"
+  },
+  {
+    "category_label": "Offices",
+    "category_id": "4bf58dd8d48988d124941735"
+  },
+  {
+    "category_label": "Business and Strategy Consulting Offices",
+    "category_id": "63be6904847c3692a84b9b32"
+  },
+  {
+    "category_label": "Campaign Offices",
+    "category_id": "5032764e91d4c4b30a586d5a"
+  },
+  {
+    "category_label": "Corporate Amenities",
+    "category_id": "5665ef1d498ec706735f0e59"
+  },
+  {
+    "category_label": "Corporate Cafeterias",
+    "category_id": "54f4ba06498e2cf5561da814"
+  },
+  {
+    "category_label": "Corporate Coffee Shops",
+    "category_id": "5665c7b9498e7d8a4f2c0f06"
+  },
+  {
+    "category_label": "Corporate Housing Agencies",
+    "category_id": "63be6904847c3692a84b9b75"
+  },
+  {
+    "category_label": "Coworking Spaces",
+    "category_id": "4bf58dd8d48988d174941735"
+  },
+  {
+    "category_label": "Meeting Rooms",
+    "category_id": "4bf58dd8d48988d127941735"
+  },
+  {
+    "category_label": "Office Buildings",
+    "category_id": "63be6904847c3692a84b9b76"
+  },
+  {
+    "category_label": "Tech Startups",
+    "category_id": "4bf58dd8d48988d125941735"
+  },
+  {
+    "category_label": "Online Advertising",
+    "category_id": "63be6904847c3692a84b9b77"
+  },
+  {
+    "category_label": "Outdoor Event Spaces",
+    "category_id": "56aa371be4b08b9a8d57356a"
+  },
+  {
+    "category_label": "Paper Suppliers",
+    "category_id": "63be6904847c3692a84b9b78"
+  },
+  {
+    "category_label": "Pet Services",
+    "category_id": "5032897c91d4c4b30a586d69"
+  },
+  {
+    "category_label": "Pet Grooming Services",
+    "category_id": "63be6904847c3692a84b9b79"
+  },
+  {
+    "category_label": "Pet Sitting and Boarding Services",
+    "category_id": "63be6904847c3692a84b9b7a"
+  },
+  {
+    "category_label": "Petroleum Suppliers",
+    "category_id": "63be6904847c3692a84b9b7b"
+  },
+  {
+    "category_label": "Photography Services",
+    "category_id": "63be6904847c3692a84b9b7d"
+  },
+  {
+    "category_label": "Photographers",
+    "category_id": "63be6904847c3692a84b9b7c"
+  },
+  {
+    "category_label": "Photography Labs",
+    "category_id": "4eb1bdde3b7b55596b4a7490"
+  },
+  {
+    "category_label": "Photography Studios",
+    "category_id": "554a5e17498efabeda6cc559"
+  },
+  {
+    "category_label": "Plastics Suppliers",
+    "category_id": "63be6904847c3692a84b9b7e"
+  },
+  {
+    "category_label": "Power Plants",
+    "category_id": "58daa1548bbb0b01f18ec1a9"
+  },
+  {
+    "category_label": "Print, TV, Radio and Outdoor Advertising",
+    "category_id": "63be6904847c3692a84b9b7f"
+  },
+  {
+    "category_label": "Promotional Items",
+    "category_id": "63be6904847c3692a84b9b80"
+  },
+  {
+    "category_label": "Public Relations Firms",
+    "category_id": "63be6904847c3692a84b9b81"
+  },
+  {
+    "category_label": "Publishers",
+    "category_id": "63be6904847c3692a84b9b82"
+  },
+  {
+    "category_label": "Radio Stations",
+    "category_id": "5032856091d4c4b30a586d63"
+  },
+  {
+    "category_label": "Real Estate Services",
+    "category_id": "63be6904847c3692a84b9b83"
+  },
+  {
+    "category_label": "Building and Land Surveyors",
+    "category_id": "63be6904847c3692a84b9b84"
+  },
+  {
+    "category_label": "Commercial Real Estate Developers",
+    "category_id": "63be6904847c3692a84b9b85"
+  },
+  {
+    "category_label": "Property Management Offices",
+    "category_id": "63be6904847c3692a84b9b86"
+  },
+  {
+    "category_label": "Real Estate Agencies",
+    "category_id": "5032885091d4c4b30a586d66"
+  },
+  {
+    "category_label": "Real Estate Appraisers",
+    "category_id": "63be6904847c3692a84b9b87"
+  },
+  {
+    "category_label": "Real Estate Development and Title Companies",
+    "category_id": "63be6904847c3692a84b9b88"
+  },
+  {
+    "category_label": "Recording Studios",
+    "category_id": "52f2ab2ebcbc57f1066b8b37"
+  },
+  {
+    "category_label": "Recycling Facilities",
+    "category_id": "4f4531084b9074f6e4fb0101"
+  },
+  {
+    "category_label": "Refrigeration and Ice Suppliers",
+    "category_id": "63be6904847c3692a84b9b89"
+  },
+  {
+    "category_label": "Renewable Energy Services",
+    "category_id": "63be6904847c3692a84b9b8a"
+  },
+  {
+    "category_label": "Rental Services",
+    "category_id": "56aa371be4b08b9a8d573552"
+  },
+  {
+    "category_label": "Repair Services",
+    "category_id": "52f2ab2ebcbc57f1066b8b2f"
+  },
+  {
+    "category_label": "Research Laboratories",
+    "category_id": "5744ccdfe4b0c0459246b4d6"
+  },
+  {
+    "category_label": "Research Stations",
+    "category_id": "58daa1558bbb0b01f18ec1b2"
+  },
+  {
+    "category_label": "Rubber Suppliers",
+    "category_id": "63be6904847c3692a84b9b8b"
+  },
+  {
+    "category_label": "Salvage Yards",
+    "category_id": "63be6904847c3692a84b9b8c"
+  },
+  {
+    "category_label": "Scientific Equipment Suppliers",
+    "category_id": "63be6904847c3692a84b9b8d"
+  },
+  {
+    "category_label": "Search Engine Marketing and Optimization",
+    "category_id": "63be6904847c3692a84b9b8e"
+  },
+  {
+    "category_label": "Security and Safety",
+    "category_id": "63be6904847c3692a84b9b8f"
+  },
+  {
+    "category_label": "Shipping, Freight, and Material Transportation Services",
+    "category_id": "52f2ab2ebcbc57f1066b8b1f"
+  },
+  {
+    "category_label": "Shoe Repair Services",
+    "category_id": "52f2ab2ebcbc57f1066b8b39"
+  },
+  {
+    "category_label": "Storage Facilities",
+    "category_id": "4f04b1572fb6e1c99f3db0bf"
+  },
+  {
+    "category_label": "Tailors",
+    "category_id": "5032781d91d4c4b30a586d5b"
+  },
+  {
+    "category_label": "Technology Business",
+    "category_id": "63be6904847c3692a84b9b90"
+  },
+  {
+    "category_label": "IT Services",
+    "category_id": "52f2ab2ebcbc57f1066b8b36"
+  },
+  {
+    "category_label": "Software Companies",
+    "category_id": "63be6904847c3692a84b9b91"
+  },
+  {
+    "category_label": "Website Designers",
+    "category_id": "63be6904847c3692a84b9b92"
+  },
+  {
+    "category_label": "Telecommunication Services",
+    "category_id": "63be6904847c3692a84b9b93"
+  },
+  {
+    "category_label": "Translation Services",
+    "category_id": "63be6904847c3692a84b9b94"
+  },
+  {
+    "category_label": "Tutoring Services",
+    "category_id": "63be6904847c3692a84b9b95"
+  },
+  {
+    "category_label": "TV Stations",
+    "category_id": "52e81612bcbc57f1066b7a31"
+  },
+  {
+    "category_label": "Warehouses",
+    "category_id": "52e81612bcbc57f1066b7a36"
+  },
+  {
+    "category_label": "Waste Management Services",
+    "category_id": "58daa1558bbb0b01f18ec1ac"
+  },
+  {
+    "category_label": "Water Treatment Services",
+    "category_id": "63be6904847c3692a84b9b96"
+  },
+  {
+    "category_label": "Wedding Halls",
+    "category_id": "56aa371be4b08b9a8d5734c5"
+  },
+  {
+    "category_label": "Welding Services",
+    "category_id": "63be6904847c3692a84b9b97"
+  },
+  {
+    "category_label": "Wholesalers",
+    "category_id": "63be6904847c3692a84b9b98"
+  },
+  {
+    "category_label": "Writing, Copywriting and Technical Writing",
+    "category_id": "63be6904847c3692a84b9b99"
+  },
+  {
+    "category_label": "Communities and Government",
+    "category_id": "63be6904847c3692a84b9b9a"
+  },
+  {
+    "category_label": "Addiction Treatment Centers",
+    "category_id": "63be6904847c3692a84b9b9b"
+  },
+  {
+    "category_label": "Animal Shelters",
+    "category_id": "4e52d2d203646f7c19daa8ae"
+  },
+  {
+    "category_label": "Assisted Living",
+    "category_id": "5032891291d4c4b30a586d68"
+  },
+  {
+    "category_label": "Cemeteries",
+    "category_id": "4bf58dd8d48988d15c941735"
+  },
+  {
+    "category_label": "Community Centers",
+    "category_id": "52e81612bcbc57f1066b7a34"
+  },
+  {
+    "category_label": "Cultural Centers",
+    "category_id": "52e81612bcbc57f1066b7a32"
+  },
+  {
+    "category_label": "Disabled Persons Services",
+    "category_id": "63be6904847c3692a84b9b9c"
+  },
+  {
+    "category_label": "Domestic Abuse Treatment Centers",
+    "category_id": "63be6904847c3692a84b9b9d"
+  },
+  {
+    "category_label": "Dumps",
+    "category_id": "63be6904847c3692a84b9b9e"
+  },
+  {
+    "category_label": "Education",
+    "category_id": "4bf58dd8d48988d13b941735"
+  },
+  {
+    "category_label": "Adult Education",
+    "category_id": "56aa371ce4b08b9a8d573570"
+  },
+  {
+    "category_label": "Art Schools",
+    "category_id": "63be6904847c3692a84b9b9f"
+  },
+  {
+    "category_label": "Circus Schools",
+    "category_id": "52e81612bcbc57f1066b7a43"
+  },
+  {
+    "category_label": "Colleges and Universities",
+    "category_id": "4d4b7105d754a06372d81259"
+  },
+  {
+    "category_label": "College Academic Buildings",
+    "category_id": "4bf58dd8d48988d198941735"
+  },
+  {
+    "category_label": "College Administrative Buildings",
+    "category_id": "4bf58dd8d48988d197941735"
+  },
+  {
+    "category_label": "College Arts Buildings",
+    "category_id": "4bf58dd8d48988d199941735"
+  },
+  {
+    "category_label": "College Auditoriums",
+    "category_id": "4bf58dd8d48988d1af941735"
+  },
+  {
+    "category_label": "College Baseball Diamonds",
+    "category_id": "4bf58dd8d48988d1bb941735"
+  },
+  {
+    "category_label": "College Basketball Courts",
+    "category_id": "4bf58dd8d48988d1ba941735"
+  },
+  {
+    "category_label": "College Bookstores",
+    "category_id": "4bf58dd8d48988d1b1941735"
+  },
+  {
+    "category_label": "College Cafeterias",
+    "category_id": "4bf58dd8d48988d1a1941735"
+  },
+  {
+    "category_label": "College Classrooms",
+    "category_id": "4bf58dd8d48988d1a0941735"
+  },
+  {
+    "category_label": "College Communications Buildings",
+    "category_id": "4bf58dd8d48988d19a941735"
+  },
+  {
+    "category_label": "College Cricket Pitches",
+    "category_id": "4bf58dd8d48988d1b9941735"
+  },
+  {
+    "category_label": "College Engineering Buildings",
+    "category_id": "4bf58dd8d48988d19e941735"
+  },
+  {
+    "category_label": "College Football Fields",
+    "category_id": "4bf58dd8d48988d1b8941735"
+  },
+  {
+    "category_label": "College Gyms",
+    "category_id": "4bf58dd8d48988d1b2941735"
+  },
+  {
+    "category_label": "College History Buildings",
+    "category_id": "4bf58dd8d48988d19d941735"
+  },
+  {
+    "category_label": "College Hockey Rinks",
+    "category_id": "4bf58dd8d48988d1b5941735"
+  },
+  {
+    "category_label": "College Labs",
+    "category_id": "4bf58dd8d48988d1a5941735"
+  },
+  {
+    "category_label": "College Libraries",
+    "category_id": "4bf58dd8d48988d1a7941735"
+  },
+  {
+    "category_label": "College Math Buildings",
+    "category_id": "4bf58dd8d48988d19c941735"
+  },
+  {
+    "category_label": "College Quads",
+    "category_id": "4bf58dd8d48988d1aa941735"
+  },
+  {
+    "category_label": "College Rec Centers",
+    "category_id": "4bf58dd8d48988d1a9941735"
+  },
+  {
+    "category_label": "College Residence Halls",
+    "category_id": "4bf58dd8d48988d1a3941735"
+  },
+  {
+    "category_label": "College Science Buildings",
+    "category_id": "4bf58dd8d48988d19b941735"
+  },
+  {
+    "category_label": "College Soccer Fields",
+    "category_id": "4bf58dd8d48988d1b7941735"
+  },
+  {
+    "category_label": "College Stadiums",
+    "category_id": "4bf58dd8d48988d1b4941735"
+  },
+  {
+    "category_label": "College Technology Buildings",
+    "category_id": "4bf58dd8d48988d19f941735"
+  },
+  {
+    "category_label": "College Tennis Courts",
+    "category_id": "4e39a9cebd410d7aed40cbc4"
+  },
+  {
+    "category_label": "College Theaters",
+    "category_id": "4bf58dd8d48988d1ac941735"
+  },
+  {
+    "category_label": "College Tracks",
+    "category_id": "4bf58dd8d48988d1b6941735"
+  },
+  {
+    "category_label": "Community Colleges",
+    "category_id": "4bf58dd8d48988d1a2941735"
+  },
+  {
+    "category_label": "Fraternity Houses",
+    "category_id": "4bf58dd8d48988d1b0941735"
+  },
+  {
+    "category_label": "Law Schools",
+    "category_id": "4bf58dd8d48988d1a6941735"
+  },
+  {
+    "category_label": "Medical Schools",
+    "category_id": "4bf58dd8d48988d1b3941735"
+  },
+  {
+    "category_label": "Sorority Houses",
+    "category_id": "4bf58dd8d48988d141941735"
+  },
+  {
+    "category_label": "Student Centers",
+    "category_id": "4bf58dd8d48988d1ab941735"
+  },
+  {
+    "category_label": "Universities",
+    "category_id": "4bf58dd8d48988d1ae941735"
+  },
+  {
+    "category_label": "Computer Training Schools",
+    "category_id": "63be6904847c3692a84b9ba0"
+  },
+  {
+    "category_label": "Culinary Schools",
+    "category_id": "58daa1558bbb0b01f18ec200"
+  },
+  {
+    "category_label": "Driving Schools",
+    "category_id": "52e81612bcbc57f1066b7a42"
+  },
+  {
+    "category_label": "Flight Schools",
+    "category_id": "52e81612bcbc57f1066b7a49"
+  },
+  {
+    "category_label": "Language Schools",
+    "category_id": "52e81612bcbc57f1066b7a48"
+  },
+  {
+    "category_label": "Music Schools",
+    "category_id": "4f04b10d2fb6e1c99f3db0be"
+  },
+  {
+    "category_label": "Nursery Schools",
+    "category_id": "4f4533814b9074f6e4fb0107"
+  },
+  {
+    "category_label": "Preschools",
+    "category_id": "52e81612bcbc57f1066b7a45"
+  },
+  {
+    "category_label": "Primary and Secondary Schools",
+    "category_id": "63be6904847c3692a84b9ba1"
+  },
+  {
+    "category_label": "Elementary Schools",
+    "category_id": "4f4533804b9074f6e4fb0105"
+  },
+  {
+    "category_label": "High Schools",
+    "category_id": "4bf58dd8d48988d13d941735"
+  },
+  {
+    "category_label": "Middle Schools",
+    "category_id": "4f4533814b9074f6e4fb0106"
+  },
+  {
+    "category_label": "Private Schools",
+    "category_id": "52e81612bcbc57f1066b7a46"
+  },
+  {
+    "category_label": "Religious Schools",
+    "category_id": "52e81612bcbc57f1066b7a47"
+  },
+  {
+    "category_label": "Trade Schools",
+    "category_id": "4bf58dd8d48988d1ad941735"
+  },
+  {
+    "category_label": "Government Buildings",
+    "category_id": "4bf58dd8d48988d126941735"
+  },
+  {
+    "category_label": "Capitol Buildings",
+    "category_id": "4bf58dd8d48988d12a941735"
+  },
+  {
+    "category_label": "City Halls",
+    "category_id": "4bf58dd8d48988d129941735"
+  },
+  {
+    "category_label": "Courthouses",
+    "category_id": "4bf58dd8d48988d12b941735"
+  },
+  {
+    "category_label": "Embassies or Consulates",
+    "category_id": "4bf58dd8d48988d12c951735"
+  },
+  {
+    "category_label": "Government Departments",
+    "category_id": "63be6904847c3692a84b9ba2"
+  },
+  {
+    "category_label": "Law Enforcement and Public Safety",
+    "category_id": "63be6904847c3692a84b9ba3"
+  },
+  {
+    "category_label": "Fire Stations",
+    "category_id": "4bf58dd8d48988d12c941735"
+  },
+  {
+    "category_label": "Police Stations",
+    "category_id": "4bf58dd8d48988d12e941735"
+  },
+  {
+    "category_label": "Probation Offices",
+    "category_id": "63be6904847c3692a84b9ba4"
+  },
+  {
+    "category_label": "Rescue Services",
+    "category_id": "63be6904847c3692a84b9ba5"
+  },
+  {
+    "category_label": "Military",
+    "category_id": "63be6904847c3692a84b9ba6"
+  },
+  {
+    "category_label": "Military Bases",
+    "category_id": "4e52adeebd41615f56317744"
+  },
+  {
+    "category_label": "Post Offices",
+    "category_id": "4bf58dd8d48988d172941735"
+  },
+  {
+    "category_label": "Government Lobbyist",
+    "category_id": "63be6904847c3692a84b9ba7"
+  },
+  {
+    "category_label": "Homeless Shelters",
+    "category_id": "63be6904847c3692a84b9ba8"
+  },
+  {
+    "category_label": "Housing Authorities",
+    "category_id": "63be6904847c3692a84b9ba9"
+  },
+  {
+    "category_label": "Housing Developments",
+    "category_id": "4f2a210c4b9023bd5841ed28"
+  },
+  {
+    "category_label": "Libraries",
+    "category_id": "4bf58dd8d48988d12f941735"
+  },
+  {
+    "category_label": "Observatories",
+    "category_id": "5744ccdfe4b0c0459246b4d9"
+  },
+  {
+    "category_label": "Organizations",
+    "category_id": "63be6904847c3692a84b9baa"
+  },
+  {
+    "category_label": "Charities",
+    "category_id": "63be6904847c3692a84b9bab"
+  },
+  {
+    "category_label": "Club Houses",
+    "category_id": "52e81612bcbc57f1066b7a35"
+  },
+  {
+    "category_label": "Environmental Organizations",
+    "category_id": "63be6904847c3692a84b9bac"
+  },
+  {
+    "category_label": "Labor Unions",
+    "category_id": "63be6904847c3692a84b9bad"
+  },
+  {
+    "category_label": "LGBTQ Organizations",
+    "category_id": "63be6904847c3692a84b9bae"
+  },
+  {
+    "category_label": "Non-Profit Organizations",
+    "category_id": "50328a8e91d4c4b30a586d6c"
+  },
+  {
+    "category_label": "Social Services Organizations",
+    "category_id": "63be6904847c3692a84b9baf"
+  },
+  {
+    "category_label": "Veterans' Organizations",
+    "category_id": "5f2c5de85b4c177b9a6de29c"
+  },
+  {
+    "category_label": "Youth Organizations",
+    "category_id": "63be6904847c3692a84b9bb0"
+  },
+  {
+    "category_label": "Polling Places",
+    "category_id": "4cae28ecbf23941eb1190695"
+  },
+  {
+    "category_label": "Prisons",
+    "category_id": "5310b8e5bcbc57f1066bcbf1"
+  },
+  {
+    "category_label": "Public and Social Services",
+    "category_id": "63be6904847c3692a84b9bb1"
+  },
+  {
+    "category_label": "Public Bathrooms",
+    "category_id": "5744ccdfe4b0c0459246b4c4"
+  },
+  {
+    "category_label": "Rehabilitation Centers",
+    "category_id": "56aa371be4b08b9a8d57351d"
+  },
+  {
+    "category_label": "Residential Buildings",
+    "category_id": "4e67e38e036454776db1fb3a"
+  },
+  {
+    "category_label": "Apartments or Condos",
+    "category_id": "4d954b06a243a5684965b473"
+  },
+  {
+    "category_label": "Homes (private)",
+    "category_id": "4bf58dd8d48988d103941735"
+  },
+  {
+    "category_label": "Retirement Homes",
+    "category_id": "63be6904847c3692a84b9bb2"
+  },
+  {
+    "category_label": "Senior Citizen Services",
+    "category_id": "63be6904847c3692a84b9bb3"
+  },
+  {
+    "category_label": "Social Clubs",
+    "category_id": "52e81612bcbc57f1066b7a33"
+  },
+  {
+    "category_label": "Spiritual Centers",
+    "category_id": "4bf58dd8d48988d131941735"
+  },
+  {
+    "category_label": "Buddhist Temples",
+    "category_id": "52e81612bcbc57f1066b7a3e"
+  },
+  {
+    "category_label": "Cemevis",
+    "category_id": "58daa1558bbb0b01f18ec1eb"
+  },
+  {
+    "category_label": "Churches",
+    "category_id": "4bf58dd8d48988d132941735"
+  },
+  {
+    "category_label": "Confucian Temples",
+    "category_id": "56aa371be4b08b9a8d5734fc"
+  },
+  {
+    "category_label": "Hindu Temples",
+    "category_id": "52e81612bcbc57f1066b7a3f"
+  },
+  {
+    "category_label": "Kingdom Halls",
+    "category_id": "5744ccdfe4b0c0459246b4ac"
+  },
+  {
+    "category_label": "Monasteries",
+    "category_id": "52e81612bcbc57f1066b7a40"
+  },
+  {
+    "category_label": "Mosques",
+    "category_id": "4bf58dd8d48988d138941735"
+  },
+  {
+    "category_label": "Prayer Rooms",
+    "category_id": "52e81612bcbc57f1066b7a41"
+  },
+  {
+    "category_label": "Shrines",
+    "category_id": "4eb1d80a4b900d56c88a45ff"
+  },
+  {
+    "category_label": "Sikh Temples",
+    "category_id": "5bae9231bedf3950379f89c9"
+  },
+  {
+    "category_label": "Synagogues",
+    "category_id": "4bf58dd8d48988d139941735"
+  },
+  {
+    "category_label": "Temples",
+    "category_id": "4bf58dd8d48988d13a941735"
+  },
+  {
+    "category_label": "Terreiros",
+    "category_id": "56aa371be4b08b9a8d5734f6"
+  },
+  {
+    "category_label": "Summer Camps",
+    "category_id": "52e81612bcbc57f1066b7a10"
+  },
+  {
+    "category_label": "Town Halls",
+    "category_id": "52e81612bcbc57f1066b7a38"
+  },
+  {
+    "category_label": "Trailer Parks",
+    "category_id": "52f2ab2ebcbc57f1066b8b55"
+  },
+  {
+    "category_label": "Utility Companies",
+    "category_id": "63be6904847c3692a84b9bb4"
+  },
+  {
+    "category_label": "Dining and Drinking",
+    "category_id": "63be6904847c3692a84b9bb5"
+  },
+  {
+    "category_label": "Bagel Shops",
+    "category_id": "4bf58dd8d48988d179941735"
+  },
+  {
+    "category_label": "Bakeries",
+    "category_id": "4bf58dd8d48988d16a941735"
+  },
+  {
+    "category_label": "Bars",
+    "category_id": "4bf58dd8d48988d116941735"
+  },
+  {
+    "category_label": "Apres Ski Bars",
+    "category_id": "4bf58dd8d48988d1ea941735"
+  },
+  {
+    "category_label": "Beach Bars",
+    "category_id": "52e81612bcbc57f1066b7a0d"
+  },
+  {
+    "category_label": "Beer Bars",
+    "category_id": "56aa371ce4b08b9a8d57356c"
+  },
+  {
+    "category_label": "Beer Gardens",
+    "category_id": "4bf58dd8d48988d117941735"
+  },
+  {
+    "category_label": "Champagne Bars",
+    "category_id": "52e81612bcbc57f1066b7a0e"
+  },
+  {
+    "category_label": "Cocktail Bars",
+    "category_id": "4bf58dd8d48988d11e941735"
+  },
+  {
+    "category_label": "Dive Bars",
+    "category_id": "4bf58dd8d48988d118941735"
+  },
+  {
+    "category_label": "Gay Bars",
+    "category_id": "4bf58dd8d48988d1d8941735"
+  },
+  {
+    "category_label": "Hookah Bars",
+    "category_id": "4bf58dd8d48988d119941735"
+  },
+  {
+    "category_label": "Hotel Bars",
+    "category_id": "4bf58dd8d48988d1d5941735"
+  },
+  {
+    "category_label": "Ice Bars",
+    "category_id": "5f2c40f15b4c177b9a6dc684"
+  },
+  {
+    "category_label": "Irish Pubs",
+    "category_id": "52e81612bcbc57f1066b7a06"
+  },
+  {
+    "category_label": "Karaoke Bars",
+    "category_id": "4bf58dd8d48988d120941735"
+  },
+  {
+    "category_label": "Lounges",
+    "category_id": "4bf58dd8d48988d121941735"
+  },
+  {
+    "category_label": "Piano Bars",
+    "category_id": "4bf58dd8d48988d1e8931735"
+  },
+  {
+    "category_label": "Pubs",
+    "category_id": "4bf58dd8d48988d11b941735"
+  },
+  {
+    "category_label": "Rooftop Bars",
+    "category_id": "5f2c224bb6d05514c70440a3"
+  },
+  {
+    "category_label": "Sake Bars",
+    "category_id": "4bf58dd8d48988d11c941735"
+  },
+  {
+    "category_label": "Speakeasies",
+    "category_id": "4bf58dd8d48988d1d4941735"
+  },
+  {
+    "category_label": "Sports Bars",
+    "category_id": "4bf58dd8d48988d11d941735"
+  },
+  {
+    "category_label": "Tiki Bars",
+    "category_id": "56aa371be4b08b9a8d57354d"
+  },
+  {
+    "category_label": "Whisky Bars",
+    "category_id": "4bf58dd8d48988d122941735"
+  },
+  {
+    "category_label": "Wine Bars",
+    "category_id": "4bf58dd8d48988d123941735"
+  },
+  {
+    "category_label": "Breakfast Spots",
+    "category_id": "4bf58dd8d48988d143941735"
+  },
+  {
+    "category_label": "Breweries",
+    "category_id": "50327c8591d4c4b30a586d5d"
+  },
+  {
+    "category_label": "Cafes, Coffee, and Tea Houses",
+    "category_id": "63be6904847c3692a84b9bb6"
+  },
+  {
+    "category_label": "Bubble Tea Shops",
+    "category_id": "52e81612bcbc57f1066b7a0c"
+  },
+  {
+    "category_label": "Cafés",
+    "category_id": "4bf58dd8d48988d16d941735"
+  },
+  {
+    "category_label": "Coffee Shops",
+    "category_id": "4bf58dd8d48988d1e0931735"
+  },
+  {
+    "category_label": "Pet Cafés",
+    "category_id": "56aa371be4b08b9a8d573508"
+  },
+  {
+    "category_label": "Tea Rooms",
+    "category_id": "4bf58dd8d48988d1dc931735"
+  },
+  {
+    "category_label": "Cafeterias",
+    "category_id": "4bf58dd8d48988d128941735"
+  },
+  {
+    "category_label": "Cideries",
+    "category_id": "5e189fd6eee47d000759bbfd"
+  },
+  {
+    "category_label": "Creperies",
+    "category_id": "52e81612bcbc57f1066b79f2"
+  },
+  {
+    "category_label": "Dessert Shops",
+    "category_id": "4bf58dd8d48988d1d0941735"
+  },
+  {
+    "category_label": "Cupcake Shops",
+    "category_id": "4bf58dd8d48988d1bc941735"
+  },
+  {
+    "category_label": "Frozen Yogurt Shops",
+    "category_id": "512e7cae91d4cbb4e5efe0af"
+  },
+  {
+    "category_label": "Gelato Shops",
+    "category_id": "5f2c407c5b4c177b9a6dc536"
+  },
+  {
+    "category_label": "Ice Cream Parlors",
+    "category_id": "4bf58dd8d48988d1c9941735"
+  },
+  {
+    "category_label": "Pastry Shops",
+    "category_id": "5744ccdfe4b0c0459246b4e2"
+  },
+  {
+    "category_label": "Pie Shops",
+    "category_id": "52e81612bcbc57f1066b7a0a"
+  },
+  {
+    "category_label": "Waffle Shops",
+    "category_id": "62d5af45da6648532de303ee"
+  },
+  {
+    "category_label": "Distilleries",
+    "category_id": "4e0e22f5a56208c4ea9a85a0"
+  },
+  {
+    "category_label": "Donut Shops",
+    "category_id": "4bf58dd8d48988d148941735"
+  },
+  {
+    "category_label": "Food Courts",
+    "category_id": "4bf58dd8d48988d120951735"
+  },
+  {
+    "category_label": "Food Stands",
+    "category_id": "56aa371be4b08b9a8d57350b"
+  },
+  {
+    "category_label": "Food Trucks",
+    "category_id": "4bf58dd8d48988d1cb941735"
+  },
+  {
+    "category_label": "Juice Bars",
+    "category_id": "4bf58dd8d48988d112941735"
+  },
+  {
+    "category_label": "Meaderies",
+    "category_id": "5e189d71eee47d000759b7e2"
+  },
+  {
+    "category_label": "Night Markets",
+    "category_id": "53e510b7498ebcb1801b55d4"
+  },
+  {
+    "category_label": "Restaurants",
+    "category_id": "4d4b7105d754a06374d81259"
+  },
+  {
+    "category_label": "Afghan Restaurants",
+    "category_id": "503288ae91d4c4b30a586d67"
+  },
+  {
+    "category_label": "African Restaurants",
+    "category_id": "4bf58dd8d48988d1c8941735"
+  },
+  {
+    "category_label": "Ethiopian Restaurants",
+    "category_id": "4bf58dd8d48988d10a941735"
+  },
+  {
+    "category_label": "Mauritian Restaurants",
+    "category_id": "5f2c344a5b4c177b9a6dc011"
+  },
+  {
+    "category_label": "American Restaurants",
+    "category_id": "4bf58dd8d48988d14e941735"
+  },
+  {
+    "category_label": "New American Restaurants",
+    "category_id": "4bf58dd8d48988d157941735"
+  },
+  {
+    "category_label": "Armenian Restaurants",
+    "category_id": "5f2c2b7db6d05514c7044837"
+  },
+  {
+    "category_label": "Asian Restaurants",
+    "category_id": "4bf58dd8d48988d142941735"
+  },
+  {
+    "category_label": "Burmese Restaurants",
+    "category_id": "56aa371be4b08b9a8d573568"
+  },
+  {
+    "category_label": "Cambodian Restaurants",
+    "category_id": "52e81612bcbc57f1066b7a03"
+  },
+  {
+    "category_label": "Chinese Restaurants",
+    "category_id": "4bf58dd8d48988d145941735"
+  },
+  {
+    "category_label": "Anhui Restaurants",
+    "category_id": "52af3a5e3cf9994f4e043bea"
+  },
+  {
+    "category_label": "Beijing Restaurants",
+    "category_id": "52af3a723cf9994f4e043bec"
+  },
+  {
+    "category_label": "Cantonese Restaurants",
+    "category_id": "52af3a7c3cf9994f4e043bed"
+  },
+  {
+    "category_label": "Cha Chaan Tengs",
+    "category_id": "58daa1558bbb0b01f18ec1d3"
+  },
+  {
+    "category_label": "Chinese Aristocrat Restaurants",
+    "category_id": "52af3a673cf9994f4e043beb"
+  },
+  {
+    "category_label": "Chinese Breakfast Restaurants",
+    "category_id": "52af3a903cf9994f4e043bee"
+  },
+  {
+    "category_label": "Dim Sum Restaurants",
+    "category_id": "4bf58dd8d48988d1f5931735"
+  },
+  {
+    "category_label": "Dongbei Restaurants",
+    "category_id": "52af3a9f3cf9994f4e043bef"
+  },
+  {
+    "category_label": "Fujian Restaurants",
+    "category_id": "52af3aaa3cf9994f4e043bf0"
+  },
+  {
+    "category_label": "Guizhou Restaurants",
+    "category_id": "52af3ab53cf9994f4e043bf1"
+  },
+  {
+    "category_label": "Hainan Restaurants",
+    "category_id": "52af3abe3cf9994f4e043bf2"
+  },
+  {
+    "category_label": "Hakka Restaurants",
+    "category_id": "52af3ac83cf9994f4e043bf3"
+  },
+  {
+    "category_label": "Henan Restaurants",
+    "category_id": "52af3ad23cf9994f4e043bf4"
+  },
+  {
+    "category_label": "Hong Kong Restaurants",
+    "category_id": "52af3add3cf9994f4e043bf5"
+  },
+  {
+    "category_label": "Huaiyang Restaurants",
+    "category_id": "52af3af23cf9994f4e043bf7"
+  },
+  {
+    "category_label": "Hubei Restaurants",
+    "category_id": "52af3ae63cf9994f4e043bf6"
+  },
+  {
+    "category_label": "Hunan Restaurants",
+    "category_id": "52af3afc3cf9994f4e043bf8"
+  },
+  {
+    "category_label": "Imperial Restaurants",
+    "category_id": "52af3b053cf9994f4e043bf9"
+  },
+  {
+    "category_label": "Jiangsu Restaurants",
+    "category_id": "52af3b213cf9994f4e043bfa"
+  },
+  {
+    "category_label": "Jiangxi Restaurants",
+    "category_id": "52af3b293cf9994f4e043bfb"
+  },
+  {
+    "category_label": "Macanese Restaurants",
+    "category_id": "52af3b343cf9994f4e043bfc"
+  },
+  {
+    "category_label": "Manchu Restaurants",
+    "category_id": "52af3b3b3cf9994f4e043bfd"
+  },
+  {
+    "category_label": "Peking Duck Restaurants",
+    "category_id": "52af3b463cf9994f4e043bfe"
+  },
+  {
+    "category_label": "Shaanxi Restaurants",
+    "category_id": "52af3b633cf9994f4e043c01"
+  },
+  {
+    "category_label": "Shandong Restaurants",
+    "category_id": "52af3b513cf9994f4e043bff"
+  },
+  {
+    "category_label": "Shanghai Restaurants",
+    "category_id": "52af3b593cf9994f4e043c00"
+  },
+  {
+    "category_label": "Shanxi Restaurants",
+    "category_id": "52af3b6e3cf9994f4e043c02"
+  },
+  {
+    "category_label": "Szechuan Restaurants",
+    "category_id": "52af3b773cf9994f4e043c03"
+  },
+  {
+    "category_label": "Taiwanese Restaurants",
+    "category_id": "52af3b813cf9994f4e043c04"
+  },
+  {
+    "category_label": "Tianjin Restaurants",
+    "category_id": "52af3b893cf9994f4e043c05"
+  },
+  {
+    "category_label": "Xinjiang Restaurants",
+    "category_id": "52af3b913cf9994f4e043c06"
+  },
+  {
+    "category_label": "Yunnan Restaurants",
+    "category_id": "52af3b9a3cf9994f4e043c07"
+  },
+  {
+    "category_label": "Zhejiang Restaurants",
+    "category_id": "52af3ba23cf9994f4e043c08"
+  },
+  {
+    "category_label": "Filipino Restaurants",
+    "category_id": "4eb1bd1c3b7b55596b4a748f"
+  },
+  {
+    "category_label": "Himalayan Restaurants",
+    "category_id": "52e81612bcbc57f1066b79fb"
+  },
+  {
+    "category_label": "Hotpot Restaurants",
+    "category_id": "52af0bd33cf9994f4e043bdd"
+  },
+  {
+    "category_label": "Indonesian Restaurants",
+    "category_id": "4deefc054765f83613cdba6f"
+  },
+  {
+    "category_label": "Acehnese Restaurants",
+    "category_id": "52960eda3cf9994f4e043ac9"
+  },
+  {
+    "category_label": "Balinese Restaurants",
+    "category_id": "52960eda3cf9994f4e043acb"
+  },
+  {
+    "category_label": "Betawinese Restaurants",
+    "category_id": "52960eda3cf9994f4e043aca"
+  },
+  {
+    "category_label": "Indonesian Meatball Restaurants",
+    "category_id": "52960eda3cf9994f4e043acc"
+  },
+  {
+    "category_label": "Javanese Restaurants",
+    "category_id": "52960eda3cf9994f4e043ac7"
+  },
+  {
+    "category_label": "Manadonese Restaurants",
+    "category_id": "52960eda3cf9994f4e043ac8"
+  },
+  {
+    "category_label": "Padangnese Restaurants",
+    "category_id": "52960eda3cf9994f4e043ac5"
+  },
+  {
+    "category_label": "Sundanese Restaurants",
+    "category_id": "52960eda3cf9994f4e043ac6"
+  },
+  {
+    "category_label": "Japanese Restaurants",
+    "category_id": "4bf58dd8d48988d111941735"
+  },
+  {
+    "category_label": "Donburi Restaurants",
+    "category_id": "55a59bace4b013909087cb0c"
+  },
+  {
+    "category_label": "Japanese Curry Restaurants",
+    "category_id": "55a59bace4b013909087cb30"
+  },
+  {
+    "category_label": "Japanese Family Restaurants",
+    "category_id": "5f2c2436b6d05514c704433e"
+  },
+  {
+    "category_label": "Kaiseki Restaurants",
+    "category_id": "55a59bace4b013909087cb21"
+  },
+  {
+    "category_label": "Kushikatsu Restaurants",
+    "category_id": "55a59bace4b013909087cb06"
+  },
+  {
+    "category_label": "Monjayaki Restaurants",
+    "category_id": "55a59bace4b013909087cb1b"
+  },
+  {
+    "category_label": "Nabe Restaurants",
+    "category_id": "55a59bace4b013909087cb1e"
+  },
+  {
+    "category_label": "Okonomiyaki Restaurants",
+    "category_id": "55a59bace4b013909087cb18"
+  },
+  {
+    "category_label": "Ramen Restaurants",
+    "category_id": "55a59bace4b013909087cb24"
+  },
+  {
+    "category_label": "Shabu-Shabu Restaurants",
+    "category_id": "55a59bace4b013909087cb15"
+  },
+  {
+    "category_label": "Soba Restaurants",
+    "category_id": "55a59bace4b013909087cb27"
+  },
+  {
+    "category_label": "Sukiyaki Restaurants",
+    "category_id": "55a59bace4b013909087cb12"
+  },
+  {
+    "category_label": "Sushi Restaurants",
+    "category_id": "4bf58dd8d48988d1d2941735"
+  },
+  {
+    "category_label": "Takoyaki Places",
+    "category_id": "55a59bace4b013909087cb2d"
+  },
+  {
+    "category_label": "Teishoku Restaurants",
+    "category_id": "5f2c239eb6d05514c70441ee"
+  },
+  {
+    "category_label": "Tempura Restaurants",
+    "category_id": "55a59a31e4b013909087cb00"
+  },
+  {
+    "category_label": "Tonkatsu Restaurants",
+    "category_id": "55a59af1e4b013909087cb03"
+  },
+  {
+    "category_label": "Udon Restaurants",
+    "category_id": "55a59bace4b013909087cb2a"
+  },
+  {
+    "category_label": "Unagi Restaurants",
+    "category_id": "55a59bace4b013909087cb0f"
+  },
+  {
+    "category_label": "Wagashi Places",
+    "category_id": "55a59bace4b013909087cb33"
+  },
+  {
+    "category_label": "Yakitori Restaurants",
+    "category_id": "55a59bace4b013909087cb09"
+  },
+  {
+    "category_label": "Yoshoku Restaurants",
+    "category_id": "55a59bace4b013909087cb36"
+  },
+  {
+    "category_label": "Korean Restaurants",
+    "category_id": "4bf58dd8d48988d113941735"
+  },
+  {
+    "category_label": "Bossam/Jokbal Restaurants",
+    "category_id": "56aa371be4b08b9a8d5734e4"
+  },
+  {
+    "category_label": "Bunsik Restaurants",
+    "category_id": "56aa371be4b08b9a8d5734f0"
+  },
+  {
+    "category_label": "Gukbap Restaurants",
+    "category_id": "56aa371be4b08b9a8d5734e7"
+  },
+  {
+    "category_label": "Janguh Restaurants",
+    "category_id": "56aa371be4b08b9a8d5734ed"
+  },
+  {
+    "category_label": "Korean BBQ Restaurants",
+    "category_id": "5f2c3f6b5b4c177b9a6dc388"
+  },
+  {
+    "category_label": "Samgyetang Restaurants",
+    "category_id": "56aa371be4b08b9a8d5734ea"
+  },
+  {
+    "category_label": "Malay Restaurants",
+    "category_id": "4bf58dd8d48988d156941735"
+  },
+  {
+    "category_label": "Mamak Restaurants",
+    "category_id": "5ae9595eb77c77002c2f9f26"
+  },
+  {
+    "category_label": "Mongolian Restaurants",
+    "category_id": "4eb1d5724b900d56c88a45fe"
+  },
+  {
+    "category_label": "Noodle Restaurants",
+    "category_id": "4bf58dd8d48988d1d1941735"
+  },
+  {
+    "category_label": "Satay Restaurants",
+    "category_id": "56aa371be4b08b9a8d57350e"
+  },
+  {
+    "category_label": "Singaporean Restaurants",
+    "category_id": "5f2c430e5b4c177b9a6dcabd"
+  },
+  {
+    "category_label": "Thai Restaurants",
+    "category_id": "4bf58dd8d48988d149941735"
+  },
+  {
+    "category_label": "Som Tum Restaurants",
+    "category_id": "56aa371be4b08b9a8d573502"
+  },
+  {
+    "category_label": "Tibetan Restaurants",
+    "category_id": "52af39fb3cf9994f4e043be9"
+  },
+  {
+    "category_label": "Vietnamese Restaurants",
+    "category_id": "4bf58dd8d48988d14a941735"
+  },
+  {
+    "category_label": "Australian Restaurants",
+    "category_id": "4bf58dd8d48988d169941735"
+  },
+  {
+    "category_label": "Austrian Restaurants",
+    "category_id": "52e81612bcbc57f1066b7a01"
+  },
+  {
+    "category_label": "Bangladeshi Restaurants",
+    "category_id": "5e179ee74ae8e90006e9a746"
+  },
+  {
+    "category_label": "BBQ Joints",
+    "category_id": "4bf58dd8d48988d1df931735"
+  },
+  {
+    "category_label": "Belgian Restaurants",
+    "category_id": "52e81612bcbc57f1066b7a02"
+  },
+  {
+    "category_label": "Bistros",
+    "category_id": "52e81612bcbc57f1066b79f1"
+  },
+  {
+    "category_label": "Buffets",
+    "category_id": "52e81612bcbc57f1066b79f4"
+  },
+  {
+    "category_label": "Burger Joints",
+    "category_id": "4bf58dd8d48988d16c941735"
+  },
+  {
+    "category_label": "Cajun and Creole Restaurants",
+    "category_id": "4bf58dd8d48988d17a941735"
+  },
+  {
+    "category_label": "Caribbean Restaurants",
+    "category_id": "4bf58dd8d48988d144941735"
+  },
+  {
+    "category_label": "Cuban Restaurants",
+    "category_id": "4bf58dd8d48988d154941735"
+  },
+  {
+    "category_label": "Puerto Rican Restaurants",
+    "category_id": "5f2c2abab6d05514c70446e4"
+  },
+  {
+    "category_label": "Caucasian Restaurants",
+    "category_id": "5293a7d53cf9994f4e043a45"
+  },
+  {
+    "category_label": "Comfort Food Restaurants",
+    "category_id": "52e81612bcbc57f1066b7a00"
+  },
+  {
+    "category_label": "Czech Restaurants",
+    "category_id": "52f2ae52bcbc57f1066b8b81"
+  },
+  {
+    "category_label": "Delis",
+    "category_id": "4bf58dd8d48988d146941735"
+  },
+  {
+    "category_label": "Diners",
+    "category_id": "4bf58dd8d48988d147941735"
+  },
+  {
+    "category_label": "Dumpling Restaurants",
+    "category_id": "4bf58dd8d48988d108941735"
+  },
+  {
+    "category_label": "Dutch Restaurants",
+    "category_id": "5744ccdfe4b0c0459246b4d0"
+  },
+  {
+    "category_label": "Eastern European Restaurants",
+    "category_id": "4bf58dd8d48988d109941735"
+  },
+  {
+    "category_label": "Belarusian Restaurants",
+    "category_id": "52e928d0bcbc57f1066b7e97"
+  },
+  {
+    "category_label": "Bosnian Restaurants",
+    "category_id": "58daa1558bbb0b01f18ec1ee"
+  },
+  {
+    "category_label": "Bulgarian Restaurants",
+    "category_id": "56aa371be4b08b9a8d5734f3"
+  },
+  {
+    "category_label": "Romanian Restaurants",
+    "category_id": "52960bac3cf9994f4e043ac4"
+  },
+  {
+    "category_label": "Tatar Restaurants",
+    "category_id": "52e928d0bcbc57f1066b7e98"
+  },
+  {
+    "category_label": "English Restaurants",
+    "category_id": "52e81612bcbc57f1066b7a05"
+  },
+  {
+    "category_label": "Falafel Restaurants",
+    "category_id": "4bf58dd8d48988d10b941735"
+  },
+  {
+    "category_label": "Fast Food Restaurants",
+    "category_id": "4bf58dd8d48988d16e941735"
+  },
+  {
+    "category_label": "Fish and Chips Shops",
+    "category_id": "4edd64a0c7ddd24ca188df1a"
+  },
+  {
+    "category_label": "Fondue Restaurants",
+    "category_id": "52e81612bcbc57f1066b7a09"
+  },
+  {
+    "category_label": "French Restaurants",
+    "category_id": "4bf58dd8d48988d10c941735"
+  },
+  {
+    "category_label": "Alsatian Restaurants",
+    "category_id": "57558b36e4b065ecebd306b6"
+  },
+  {
+    "category_label": "Auvergne Restaurants",
+    "category_id": "57558b36e4b065ecebd306b8"
+  },
+  {
+    "category_label": "Basque Restaurants",
+    "category_id": "57558b36e4b065ecebd306bc"
+  },
+  {
+    "category_label": "Brasseries",
+    "category_id": "57558b36e4b065ecebd306b0"
+  },
+  {
+    "category_label": "Breton Restaurants",
+    "category_id": "57558b36e4b065ecebd306c5"
+  },
+  {
+    "category_label": "Burgundian Restaurants",
+    "category_id": "57558b36e4b065ecebd306c0"
+  },
+  {
+    "category_label": "Catalan Restaurants",
+    "category_id": "57558b36e4b065ecebd306cb"
+  },
+  {
+    "category_label": "Ch'ti Restaurants",
+    "category_id": "57558b36e4b065ecebd306ce"
+  },
+  {
+    "category_label": "Corsican Restaurants",
+    "category_id": "57558b36e4b065ecebd306d1"
+  },
+  {
+    "category_label": "Estaminets",
+    "category_id": "57558b36e4b065ecebd306b4"
+  },
+  {
+    "category_label": "Labour Canteens",
+    "category_id": "57558b36e4b065ecebd306b2"
+  },
+  {
+    "category_label": "Lyonese Bouchons",
+    "category_id": "57558b35e4b065ecebd306ad"
+  },
+  {
+    "category_label": "Norman Restaurants",
+    "category_id": "57558b36e4b065ecebd306d4"
+  },
+  {
+    "category_label": "Provençal Restaurants",
+    "category_id": "57558b36e4b065ecebd306d7"
+  },
+  {
+    "category_label": "Savoyard Restaurants",
+    "category_id": "57558b36e4b065ecebd306da"
+  },
+  {
+    "category_label": "Southwestern French Restaurants",
+    "category_id": "57558b36e4b065ecebd306ba"
+  },
+  {
+    "category_label": "Fried Chicken Joints",
+    "category_id": "4d4ae6fc7a7b7dea34424761"
+  },
+  {
+    "category_label": "Friteries",
+    "category_id": "55d25775498e9f6a0816a37a"
+  },
+  {
+    "category_label": "Gastropubs",
+    "category_id": "4bf58dd8d48988d155941735"
+  },
+  {
+    "category_label": "German Restaurants",
+    "category_id": "4bf58dd8d48988d10d941735"
+  },
+  {
+    "category_label": "Apple Wine Pubs",
+    "category_id": "56aa371ce4b08b9a8d573583"
+  },
+  {
+    "category_label": "Bavarian Restaurants",
+    "category_id": "56aa371ce4b08b9a8d573572"
+  },
+  {
+    "category_label": "Bratwurst Joints",
+    "category_id": "56aa371ce4b08b9a8d57358e"
+  },
+  {
+    "category_label": "Currywurst Joints",
+    "category_id": "56aa371ce4b08b9a8d57358b"
+  },
+  {
+    "category_label": "Franconian Restaurants",
+    "category_id": "56aa371ce4b08b9a8d573574"
+  },
+  {
+    "category_label": "German Pop-Up Restaurants",
+    "category_id": "56aa371ce4b08b9a8d573592"
+  },
+  {
+    "category_label": "Palatine Restaurants",
+    "category_id": "56aa371ce4b08b9a8d573578"
+  },
+  {
+    "category_label": "Rhenisch Restaurants",
+    "category_id": "56aa371ce4b08b9a8d57357b"
+  },
+  {
+    "category_label": "Schnitzel Restaurants",
+    "category_id": "56aa371ce4b08b9a8d573587"
+  },
+  {
+    "category_label": "Silesian Restaurants",
+    "category_id": "56aa371ce4b08b9a8d57357f"
+  },
+  {
+    "category_label": "Swabian Restaurants",
+    "category_id": "56aa371ce4b08b9a8d573576"
+  },
+  {
+    "category_label": "Gluten-Free Restaurants",
+    "category_id": "4c2cd86ed066bed06c3c5209"
+  },
+  {
+    "category_label": "Greek Restaurants",
+    "category_id": "4bf58dd8d48988d10e941735"
+  },
+  {
+    "category_label": "Bougatsa Shops",
+    "category_id": "53d6c1b0e4b02351e88a83e8"
+  },
+  {
+    "category_label": "Cretan Restaurants",
+    "category_id": "53d6c1b0e4b02351e88a83e2"
+  },
+  {
+    "category_label": "Fish Tavernas",
+    "category_id": "53d6c1b0e4b02351e88a83d8"
+  },
+  {
+    "category_label": "Grilled Meat Restaurants",
+    "category_id": "53d6c1b0e4b02351e88a83d6"
+  },
+  {
+    "category_label": "Kafenios",
+    "category_id": "53d6c1b0e4b02351e88a83e6"
+  },
+  {
+    "category_label": "Magirios",
+    "category_id": "53d6c1b0e4b02351e88a83e4"
+  },
+  {
+    "category_label": "Meze Restaurants",
+    "category_id": "53d6c1b0e4b02351e88a83da"
+  },
+  {
+    "category_label": "Modern Greek Restaurants",
+    "category_id": "53d6c1b0e4b02351e88a83d4"
+  },
+  {
+    "category_label": "Ouzeries",
+    "category_id": "53d6c1b0e4b02351e88a83dc"
+  },
+  {
+    "category_label": "Patsa Restaurants",
+    "category_id": "53d6c1b0e4b02351e88a83e0"
+  },
+  {
+    "category_label": "Souvlaki Shops",
+    "category_id": "52e81612bcbc57f1066b79f3"
+  },
+  {
+    "category_label": "Tavernas",
+    "category_id": "53d6c1b0e4b02351e88a83d2"
+  },
+  {
+    "category_label": "Tsipouro Restaurants",
+    "category_id": "53d6c1b0e4b02351e88a83de"
+  },
+  {
+    "category_label": "Halal Restaurants",
+    "category_id": "52e81612bcbc57f1066b79ff"
+  },
+  {
+    "category_label": "Hawaiian Restaurants",
+    "category_id": "52e81612bcbc57f1066b79fe"
+  },
+  {
+    "category_label": "Poke Restaurants",
+    "category_id": "5bae9231bedf3950379f89d4"
+  },
+  {
+    "category_label": "Hot Dog Joints",
+    "category_id": "4bf58dd8d48988d16f941735"
+  },
+  {
+    "category_label": "Hungarian Restaurants",
+    "category_id": "52e81612bcbc57f1066b79fa"
+  },
+  {
+    "category_label": "Indian Chinese Restaurants",
+    "category_id": "54135bf5e4b08f3d2429dfdf"
+  },
+  {
+    "category_label": "Indian Restaurants",
+    "category_id": "4bf58dd8d48988d10f941735"
+  },
+  {
+    "category_label": "Andhra Restaurants",
+    "category_id": "54135bf5e4b08f3d2429dfe5"
+  },
+  {
+    "category_label": "Awadhi Restaurants",
+    "category_id": "54135bf5e4b08f3d2429dff3"
+  },
+  {
+    "category_label": "Bengali Restaurants",
+    "category_id": "54135bf5e4b08f3d2429dff5"
+  },
+  {
+    "category_label": "Chaat Places",
+    "category_id": "54135bf5e4b08f3d2429dfe2"
+  },
+  {
+    "category_label": "Chettinad Restaurants",
+    "category_id": "54135bf5e4b08f3d2429dff2"
+  },
+  {
+    "category_label": "Dhabas",
+    "category_id": "54135bf5e4b08f3d2429dfe1"
+  },
+  {
+    "category_label": "Dosa Places",
+    "category_id": "54135bf5e4b08f3d2429dfe3"
+  },
+  {
+    "category_label": "Goan Restaurants",
+    "category_id": "54135bf5e4b08f3d2429dfe8"
+  },
+  {
+    "category_label": "Gujarati Restaurants",
+    "category_id": "54135bf5e4b08f3d2429dfe9"
+  },
+  {
+    "category_label": "Hyderabadi Restaurants",
+    "category_id": "54135bf5e4b08f3d2429dfe6"
+  },
+  {
+    "category_label": "Indian Sweet Shops",
+    "category_id": "54135bf5e4b08f3d2429dfe4"
+  },
+  {
+    "category_label": "Irani Cafes",
+    "category_id": "54135bf5e4b08f3d2429dfe7"
+  },
+  {
+    "category_label": "Jain Restaurants",
+    "category_id": "54135bf5e4b08f3d2429dfea"
+  },
+  {
+    "category_label": "Karnataka Restaurants",
+    "category_id": "54135bf5e4b08f3d2429dfeb"
+  },
+  {
+    "category_label": "Kerala Restaurants",
+    "category_id": "54135bf5e4b08f3d2429dfed"
+  },
+  {
+    "category_label": "Maharashtrian Restaurants",
+    "category_id": "54135bf5e4b08f3d2429dfee"
+  },
+  {
+    "category_label": "Mughlai Restaurants",
+    "category_id": "54135bf5e4b08f3d2429dff4"
+  },
+  {
+    "category_label": "Multicuisine Indian Restaurants",
+    "category_id": "54135bf5e4b08f3d2429dfe0"
+  },
+  {
+    "category_label": "North Indian Restaurants",
+    "category_id": "54135bf5e4b08f3d2429dfdd"
+  },
+  {
+    "category_label": "Northeast Indian Restaurants",
+    "category_id": "54135bf5e4b08f3d2429dff6"
+  },
+  {
+    "category_label": "Parsi Restaurants",
+    "category_id": "54135bf5e4b08f3d2429dfef"
+  },
+  {
+    "category_label": "Punjabi Restaurants",
+    "category_id": "54135bf5e4b08f3d2429dff0"
+  },
+  {
+    "category_label": "Rajasthani Restaurants",
+    "category_id": "54135bf5e4b08f3d2429dff1"
+  },
+  {
+    "category_label": "South Indian Restaurants",
+    "category_id": "54135bf5e4b08f3d2429dfde"
+  },
+  {
+    "category_label": "Udupi Restaurants",
+    "category_id": "54135bf5e4b08f3d2429dfec"
+  },
+  {
+    "category_label": "Italian Restaurants",
+    "category_id": "4bf58dd8d48988d110941735"
+  },
+  {
+    "category_label": "Abruzzo Restaurants",
+    "category_id": "55a5a1ebe4b013909087cbb6"
+  },
+  {
+    "category_label": "Agriturismos",
+    "category_id": "55a5a1ebe4b013909087cb7c"
+  },
+  {
+    "category_label": "Aosta Restaurants",
+    "category_id": "55a5a1ebe4b013909087cba7"
+  },
+  {
+    "category_label": "Basilicata Restaurants",
+    "category_id": "55a5a1ebe4b013909087cba1"
+  },
+  {
+    "category_label": "Calabria Restaurants",
+    "category_id": "55a5a1ebe4b013909087cba4"
+  },
+  {
+    "category_label": "Campanian Restaurants",
+    "category_id": "55a5a1ebe4b013909087cb95"
+  },
+  {
+    "category_label": "Emilia Restaurants",
+    "category_id": "55a5a1ebe4b013909087cb89"
+  },
+  {
+    "category_label": "Friuli Restaurants",
+    "category_id": "55a5a1ebe4b013909087cb9b"
+  },
+  {
+    "category_label": "Ligurian Restaurants",
+    "category_id": "55a5a1ebe4b013909087cb98"
+  },
+  {
+    "category_label": "Lombard Restaurants",
+    "category_id": "55a5a1ebe4b013909087cbbf"
+  },
+  {
+    "category_label": "Malgas",
+    "category_id": "55a5a1ebe4b013909087cb79"
+  },
+  {
+    "category_label": "Marche Restaurants",
+    "category_id": "55a5a1ebe4b013909087cbb0"
+  },
+  {
+    "category_label": "Molise Restaurants",
+    "category_id": "55a5a1ebe4b013909087cbb3"
+  },
+  {
+    "category_label": "Piadinerias",
+    "category_id": "55a5a1ebe4b013909087cb74"
+  },
+  {
+    "category_label": "Piedmontese Restaurants",
+    "category_id": "55a5a1ebe4b013909087cbaa"
+  },
+  {
+    "category_label": "Puglia Restaurants",
+    "category_id": "55a5a1ebe4b013909087cb83"
+  },
+  {
+    "category_label": "Romagna Restaurants",
+    "category_id": "55a5a1ebe4b013909087cb8c"
+  },
+  {
+    "category_label": "Roman Restaurants",
+    "category_id": "55a5a1ebe4b013909087cb92"
+  },
+  {
+    "category_label": "Sardinian Restaurants",
+    "category_id": "55a5a1ebe4b013909087cb8f"
+  },
+  {
+    "category_label": "Sicilian Restaurants",
+    "category_id": "55a5a1ebe4b013909087cb86"
+  },
+  {
+    "category_label": "South Tyrolean Restaurants",
+    "category_id": "55a5a1ebe4b013909087cbb9"
+  },
+  {
+    "category_label": "Trattorias",
+    "category_id": "55a5a1ebe4b013909087cb7f"
+  },
+  {
+    "category_label": "Trentino Restaurants",
+    "category_id": "55a5a1ebe4b013909087cbbc"
+  },
+  {
+    "category_label": "Tuscan Restaurants",
+    "category_id": "55a5a1ebe4b013909087cb9e"
+  },
+  {
+    "category_label": "Umbrian Restaurants",
+    "category_id": "55a5a1ebe4b013909087cbc2"
+  },
+  {
+    "category_label": "Veneto Restaurants",
+    "category_id": "55a5a1ebe4b013909087cbad"
+  },
+  {
+    "category_label": "Jewish Restaurants",
+    "category_id": "52e81612bcbc57f1066b79fd"
+  },
+  {
+    "category_label": "Kosher Restaurants",
+    "category_id": "52e81612bcbc57f1066b79fc"
+  },
+  {
+    "category_label": "Kebab Restaurants",
+    "category_id": "5283c7b4e4b094cb91ec88d7"
+  },
+  {
+    "category_label": "Latin American Restaurants",
+    "category_id": "4bf58dd8d48988d1be941735"
+  },
+  {
+    "category_label": "Arepa Restaurants",
+    "category_id": "4bf58dd8d48988d152941735"
+  },
+  {
+    "category_label": "Empanada Restaurants",
+    "category_id": "52939a8c3cf9994f4e043a35"
+  },
+  {
+    "category_label": "Honduran Restaurants",
+    "category_id": "5f2c32587ff30c0d7ac09638"
+  },
+  {
+    "category_label": "Salvadoran Restaurants",
+    "category_id": "5745c7ac498e5d0483112fdb"
+  },
+  {
+    "category_label": "South American Restaurants",
+    "category_id": "4bf58dd8d48988d1cd941735"
+  },
+  {
+    "category_label": "Argentinian Restaurants",
+    "category_id": "4bf58dd8d48988d107941735"
+  },
+  {
+    "category_label": "Brazilian Restaurants",
+    "category_id": "4bf58dd8d48988d16b941735"
+  },
+  {
+    "category_label": "Acai Houses",
+    "category_id": "5294c7523cf9994f4e043a62"
+  },
+  {
+    "category_label": "Baiano Restaurants",
+    "category_id": "52939ae13cf9994f4e043a3b"
+  },
+  {
+    "category_label": "Central Brazilian Restaurants",
+    "category_id": "52939a9e3cf9994f4e043a36"
+  },
+  {
+    "category_label": "Churrascarias",
+    "category_id": "52939a643cf9994f4e043a33"
+  },
+  {
+    "category_label": "Empada Houses",
+    "category_id": "5294c55c3cf9994f4e043a61"
+  },
+  {
+    "category_label": "Goiano Restaurants",
+    "category_id": "52939af83cf9994f4e043a3d"
+  },
+  {
+    "category_label": "Mineiro Restaurants",
+    "category_id": "52939aed3cf9994f4e043a3c"
+  },
+  {
+    "category_label": "Northeastern Brazilian Restaurants",
+    "category_id": "52939aae3cf9994f4e043a37"
+  },
+  {
+    "category_label": "Northern Brazilian Restaurants",
+    "category_id": "52939ab93cf9994f4e043a38"
+  },
+  {
+    "category_label": "Pastelarias",
+    "category_id": "5294cbda3cf9994f4e043a63"
+  },
+  {
+    "category_label": "Southeastern Brazilian Restaurants",
+    "category_id": "52939ac53cf9994f4e043a39"
+  },
+  {
+    "category_label": "Southern Brazilian Restaurants",
+    "category_id": "52939ad03cf9994f4e043a3a"
+  },
+  {
+    "category_label": "Tapiocarias",
+    "category_id": "52939a7d3cf9994f4e043a34"
+  },
+  {
+    "category_label": "Colombian Restaurants",
+    "category_id": "58daa1558bbb0b01f18ec1f4"
+  },
+  {
+    "category_label": "Peruvian Restaurants",
+    "category_id": "4eb1bfa43b7b52c0e1adc2e8"
+  },
+  {
+    "category_label": "Peruvian Roast Chicken Joints",
+    "category_id": "5f2c1c31b6d05514c704334c"
+  },
+  {
+    "category_label": "Venezuelan Restaurants",
+    "category_id": "56aa371be4b08b9a8d573558"
+  },
+  {
+    "category_label": "Mac and Cheese Joints",
+    "category_id": "4bf58dd8d48988d1bf941735"
+  },
+  {
+    "category_label": "Mediterranean Restaurants",
+    "category_id": "4bf58dd8d48988d1c0941735"
+  },
+  {
+    "category_label": "Mexican Restaurants",
+    "category_id": "4bf58dd8d48988d1c1941735"
+  },
+  {
+    "category_label": "Botaneros",
+    "category_id": "58daa1558bbb0b01f18ec1d9"
+  },
+  {
+    "category_label": "Burrito Restaurants",
+    "category_id": "4bf58dd8d48988d153941735"
+  },
+  {
+    "category_label": "Taco Restaurants",
+    "category_id": "4bf58dd8d48988d151941735"
+  },
+  {
+    "category_label": "Tex-Mex Restaurants",
+    "category_id": "56aa371ae4b08b9a8d5734ba"
+  },
+  {
+    "category_label": "Yucatecan Restaurants",
+    "category_id": "5744ccdfe4b0c0459246b4d3"
+  },
+  {
+    "category_label": "Middle Eastern Restaurants",
+    "category_id": "4bf58dd8d48988d115941735"
+  },
+  {
+    "category_label": "Egyptian Restaurants",
+    "category_id": "5bae9231bedf3950379f89e1"
+  },
+  {
+    "category_label": "Iraqi Restaurants",
+    "category_id": "5bae9231bedf3950379f89e7"
+  },
+  {
+    "category_label": "Israeli Restaurants",
+    "category_id": "56aa371be4b08b9a8d573529"
+  },
+  {
+    "category_label": "Kurdish Restaurants",
+    "category_id": "5744ccdfe4b0c0459246b4ca"
+  },
+  {
+    "category_label": "Lebanese Restaurants",
+    "category_id": "58daa1558bbb0b01f18ec1cd"
+  },
+  {
+    "category_label": "Persian Restaurants",
+    "category_id": "52e81612bcbc57f1066b79f7"
+  },
+  {
+    "category_label": "Ash and Haleem Places",
+    "category_id": "58daa1558bbb0b01f18ec1bc"
+  },
+  {
+    "category_label": "Dizi Places",
+    "category_id": "58daa1558bbb0b01f18ec1c0"
+  },
+  {
+    "category_label": "Gilaki Restaurants",
+    "category_id": "58daa1558bbb0b01f18ec1c4"
+  },
+  {
+    "category_label": "Jegarakis",
+    "category_id": "58daa1558bbb0b01f18ec1c7"
+  },
+  {
+    "category_label": "Tabbakhis",
+    "category_id": "5744ccdfe4b0c0459246b4a8"
+  },
+  {
+    "category_label": "Shawarma Restaurants",
+    "category_id": "5bae9231bedf3950379f89e4"
+  },
+  {
+    "category_label": "Syrian Restaurants",
+    "category_id": "5bae9231bedf3950379f89da"
+  },
+  {
+    "category_label": "Yemeni Restaurants",
+    "category_id": "5bae9231bedf3950379f89ea"
+  },
+  {
+    "category_label": "Modern European Restaurants",
+    "category_id": "52e81612bcbc57f1066b79f9"
+  },
+  {
+    "category_label": "Molecular Gastronomy Restaurants",
+    "category_id": "4bf58dd8d48988d1c2941735"
+  },
+  {
+    "category_label": "Moroccan Restaurants",
+    "category_id": "4bf58dd8d48988d1c3941735"
+  },
+  {
+    "category_label": "Pakistani Restaurants",
+    "category_id": "52e81612bcbc57f1066b79f8"
+  },
+  {
+    "category_label": "Pizzerias",
+    "category_id": "4bf58dd8d48988d1ca941735"
+  },
+  {
+    "category_label": "Polish Restaurants",
+    "category_id": "52e81612bcbc57f1066b7a04"
+  },
+  {
+    "category_label": "Portuguese Restaurants",
+    "category_id": "4def73e84765ae376e57713a"
+  },
+  {
+    "category_label": "Poutine Restaurants",
+    "category_id": "56aa371be4b08b9a8d5734c7"
+  },
+  {
+    "category_label": "Russian Restaurants",
+    "category_id": "5293a7563cf9994f4e043a44"
+  },
+  {
+    "category_label": "Blini Houses",
+    "category_id": "52e928d0bcbc57f1066b7e9d"
+  },
+  {
+    "category_label": "Pelmeni Houses",
+    "category_id": "52e928d0bcbc57f1066b7e9c"
+  },
+  {
+    "category_label": "Salad Restaurants",
+    "category_id": "4bf58dd8d48988d1bd941735"
+  },
+  {
+    "category_label": "Sandwich Spots",
+    "category_id": "4bf58dd8d48988d1c5941735"
+  },
+  {
+    "category_label": "Scandinavian Restaurants",
+    "category_id": "4bf58dd8d48988d1c6941735"
+  },
+  {
+    "category_label": "Scottish Restaurants",
+    "category_id": "5744ccdde4b0c0459246b4a3"
+  },
+  {
+    "category_label": "Seafood Restaurants",
+    "category_id": "4bf58dd8d48988d1ce941735"
+  },
+  {
+    "category_label": "Slovak Restaurants",
+    "category_id": "56aa371be4b08b9a8d57355a"
+  },
+  {
+    "category_label": "Soup Spots",
+    "category_id": "4bf58dd8d48988d1dd931735"
+  },
+  {
+    "category_label": "Southern Food Restaurants",
+    "category_id": "4bf58dd8d48988d14f941735"
+  },
+  {
+    "category_label": "Spanish Restaurants",
+    "category_id": "4bf58dd8d48988d150941735"
+  },
+  {
+    "category_label": "Paella Restaurants",
+    "category_id": "4bf58dd8d48988d14d941735"
+  },
+  {
+    "category_label": "Tapas Restaurants",
+    "category_id": "4bf58dd8d48988d1db931735"
+  },
+  {
+    "category_label": "Sri Lankan Restaurants",
+    "category_id": "5413605de4b0ae91d18581a9"
+  },
+  {
+    "category_label": "Steakhouses",
+    "category_id": "4bf58dd8d48988d1cc941735"
+  },
+  {
+    "category_label": "Swiss Restaurants",
+    "category_id": "4bf58dd8d48988d158941735"
+  },
+  {
+    "category_label": "Theme Restaurants",
+    "category_id": "56aa371be4b08b9a8d573538"
+  },
+  {
+    "category_label": "Turkish Restaurants",
+    "category_id": "4f04af1f2fb6e1c99f3db0bb"
+  },
+  {
+    "category_label": "Borek Places",
+    "category_id": "530faca9bcbc57f1066bc2f3"
+  },
+  {
+    "category_label": "Cigkofte Places",
+    "category_id": "530faca9bcbc57f1066bc2f4"
+  },
+  {
+    "category_label": "Çöp Şiş Places",
+    "category_id": "58daa1558bbb0b01f18ec1e2"
+  },
+  {
+    "category_label": "Doner Restaurants",
+    "category_id": "5283c7b4e4b094cb91ec88d8"
+  },
+  {
+    "category_label": "Gozleme Places",
+    "category_id": "5283c7b4e4b094cb91ec88d9"
+  },
+  {
+    "category_label": "Kofte Places",
+    "category_id": "5283c7b4e4b094cb91ec88db"
+  },
+  {
+    "category_label": "Kokoreç Restaurants",
+    "category_id": "5283c7b4e4b094cb91ec88d6"
+  },
+  {
+    "category_label": "Kumpir Restaurants",
+    "category_id": "56aa371be4b08b9a8d573535"
+  },
+  {
+    "category_label": "Kumru Restaurants",
+    "category_id": "56aa371be4b08b9a8d5734bd"
+  },
+  {
+    "category_label": "Manti Places",
+    "category_id": "5283c7b4e4b094cb91ec88d5"
+  },
+  {
+    "category_label": "Meyhanes",
+    "category_id": "5283c7b4e4b094cb91ec88da"
+  },
+  {
+    "category_label": "Pide Places",
+    "category_id": "530faca9bcbc57f1066bc2f2"
+  },
+  {
+    "category_label": "Pilavcıs",
+    "category_id": "58daa1558bbb0b01f18ec1df"
+  },
+  {
+    "category_label": "Söğüş Places",
+    "category_id": "58daa1558bbb0b01f18ec1dc"
+  },
+  {
+    "category_label": "Tantuni Restaurants",
+    "category_id": "56aa371be4b08b9a8d5734bf"
+  },
+  {
+    "category_label": "Turkish Coffeehouses",
+    "category_id": "56aa371be4b08b9a8d5734c1"
+  },
+  {
+    "category_label": "Turkish Home Cooking Restaurants",
+    "category_id": "5283c7b4e4b094cb91ec88d4"
+  },
+  {
+    "category_label": "Ukrainian Restaurants",
+    "category_id": "52e928d0bcbc57f1066b7e96"
+  },
+  {
+    "category_label": "Varenyky Restaurants",
+    "category_id": "52e928d0bcbc57f1066b7e9a"
+  },
+  {
+    "category_label": "West-Ukrainian Restaurants",
+    "category_id": "52e928d0bcbc57f1066b7e9b"
+  },
+  {
+    "category_label": "Vegan and Vegetarian Restaurants",
+    "category_id": "4bf58dd8d48988d1d3941735"
+  },
+  {
+    "category_label": "Wings Joints",
+    "category_id": "4bf58dd8d48988d14c941735"
+  },
+  {
+    "category_label": "Smoothie Shops",
+    "category_id": "52f2ab2ebcbc57f1066b8b41"
+  },
+  {
+    "category_label": "Snack Places",
+    "category_id": "4bf58dd8d48988d1c7941735"
+  },
+  {
+    "category_label": "Vineyards",
+    "category_id": "4bf58dd8d48988d1de941735"
+  },
+  {
+    "category_label": "Wineries",
+    "category_id": "4bf58dd8d48988d14b941735"
+  },
+  {
+    "category_label": "Events",
+    "category_id": "4d4b7105d754a06373d81259"
+  },
+  {
+    "category_label": "Conferences",
+    "category_id": "5267e4d9e4b0ec79466e48c6"
+  },
+  {
+    "category_label": "Conventions",
+    "category_id": "5267e4d9e4b0ec79466e48c9"
+  },
+  {
+    "category_label": "Entertainment Events",
+    "category_id": "63be6904847c3692a84b9bb7"
+  },
+  {
+    "category_label": "Festivals",
+    "category_id": "5267e4d9e4b0ec79466e48c7"
+  },
+  {
+    "category_label": "Beer Festivals",
+    "category_id": "62d587aeda6648532de2b88c"
+  },
+  {
+    "category_label": "Music Festivals",
+    "category_id": "5267e4d9e4b0ec79466e48d1"
+  },
+  {
+    "category_label": "Parades",
+    "category_id": "52741d85e4b0d5d1e3c6a6d9"
+  },
+  {
+    "category_label": "Sporting Events",
+    "category_id": "5bae9231bedf3950379f89c5"
+  },
+  {
+    "category_label": "Lines",
+    "category_id": "58daa1558bbb0b01f18ec1fa"
+  },
+  {
+    "category_label": "Marketplaces",
+    "category_id": "63be6904847c3692a84b9bb8"
+  },
+  {
+    "category_label": "Christmas Markets",
+    "category_id": "52f2ab2ebcbc57f1066b8b3b"
+  },
+  {
+    "category_label": "Stoop Sales",
+    "category_id": "52f2ab2ebcbc57f1066b8b54"
+  },
+  {
+    "category_label": "Street Fairs",
+    "category_id": "5267e4d8e4b0ec79466e48c5"
+  },
+  {
+    "category_label": "Street Food Gatherings",
+    "category_id": "53e0feef498e5aac066fd8a9"
+  },
+  {
+    "category_label": "Trade Fairs",
+    "category_id": "5bae9231bedf3950379f89c3"
+  },
+  {
+    "category_label": "Other Events",
+    "category_id": "5267e4d9e4b0ec79466e48c8"
+  },
+  {
+    "category_label": "Health and Medicine",
+    "category_id": "63be6904847c3692a84b9bb9"
+  },
+  {
+    "category_label": "Acupuncture Clinics",
+    "category_id": "52e81612bcbc57f1066b7a3b"
+  },
+  {
+    "category_label": "AIDS Resources",
+    "category_id": "63be6904847c3692a84b9bba"
+  },
+  {
+    "category_label": "Alternative Medicine Clinics",
+    "category_id": "52e81612bcbc57f1066b7a3c"
+  },
+  {
+    "category_label": "Assisted Living Services",
+    "category_id": "63be6904847c3692a84b9bbb"
+  },
+  {
+    "category_label": "Blood Banks",
+    "category_id": "5f2c43a65b4c177b9a6dcc62"
+  },
+  {
+    "category_label": "Chiropractors",
+    "category_id": "52e81612bcbc57f1066b7a3a"
+  },
+  {
+    "category_label": "Dentists",
+    "category_id": "4bf58dd8d48988d178941735"
+  },
+  {
+    "category_label": "Emergency Services",
+    "category_id": "63be6904847c3692a84b9bbc"
+  },
+  {
+    "category_label": "Ambulance Services",
+    "category_id": "63be6904847c3692a84b9bbd"
+  },
+  {
+    "category_label": "Emergency Rooms",
+    "category_id": "4bf58dd8d48988d194941735"
+  },
+  {
+    "category_label": "Healthcare Clinics",
+    "category_id": "63be6904847c3692a84b9bbe"
+  },
+  {
+    "category_label": "Home Health Care Services",
+    "category_id": "63be6904847c3692a84b9bbf"
+  },
+  {
+    "category_label": "Hospices",
+    "category_id": "5f2c5b8b5b4c177b9a6ddf0b"
+  },
+  {
+    "category_label": "Hospitals",
+    "category_id": "4bf58dd8d48988d196941735"
+  },
+  {
+    "category_label": "Children's Hospitals",
+    "category_id": "63be6904847c3692a84b9bc0"
+  },
+  {
+    "category_label": "Hospital Units",
+    "category_id": "58daa1558bbb0b01f18ec1f7"
+  },
+  {
+    "category_label": "Maternity Clinics",
+    "category_id": "56aa371be4b08b9a8d5734ff"
+  },
+  {
+    "category_label": "Medical Centers",
+    "category_id": "4bf58dd8d48988d104941735"
+  },
+  {
+    "category_label": "Medical Labs",
+    "category_id": "4f4531b14b9074f6e4fb0103"
+  },
+  {
+    "category_label": "Mental Health Services",
+    "category_id": "63be6904847c3692a84b9bc1"
+  },
+  {
+    "category_label": "Mental Health Clinics",
+    "category_id": "52e81612bcbc57f1066b7a39"
+  },
+  {
+    "category_label": "Psychologists",
+    "category_id": "63be6904847c3692a84b9bc2"
+  },
+  {
+    "category_label": "Nurses",
+    "category_id": "63be6904847c3692a84b9bc3"
+  },
+  {
+    "category_label": "Nursing Homes",
+    "category_id": "63be6904847c3692a84b9bc4"
+  },
+  {
+    "category_label": "Nutritionists",
+    "category_id": "58daa1558bbb0b01f18ec1d0"
+  },
+  {
+    "category_label": "Optometrists",
+    "category_id": "522e32fae4b09b556e370f19"
+  },
+  {
+    "category_label": "Other Healthcare Professionals",
+    "category_id": "63be6904847c3692a84b9bc5"
+  },
+  {
+    "category_label": "Physical Therapy Clinics",
+    "category_id": "5744ccdfe4b0c0459246b4af"
+  },
+  {
+    "category_label": "Physicians",
+    "category_id": "63be6904847c3692a84b9bc6"
+  },
+  {
+    "category_label": "Anesthesiologists",
+    "category_id": "63be6904847c3692a84b9bc7"
+  },
+  {
+    "category_label": "Cardiologists",
+    "category_id": "63be6904847c3692a84b9bc8"
+  },
+  {
+    "category_label": "Dermatologists",
+    "category_id": "63be6904847c3692a84b9bc9"
+  },
+  {
+    "category_label": "Doctor's Offices",
+    "category_id": "4bf58dd8d48988d177941735"
+  },
+  {
+    "category_label": "Ear, Nose and Throat Doctors",
+    "category_id": "63be6904847c3692a84b9bca"
+  },
+  {
+    "category_label": "Family Medicine Doctors",
+    "category_id": "63be6904847c3692a84b9bcb"
+  },
+  {
+    "category_label": "Gastroenterologists",
+    "category_id": "63be6904847c3692a84b9bcc"
+  },
+  {
+    "category_label": "General Surgeons",
+    "category_id": "63be6904847c3692a84b9bcd"
+  },
+  {
+    "category_label": "Geriatric Doctors",
+    "category_id": "63be6904847c3692a84b9bce"
+  },
+  {
+    "category_label": "Internal Medicine Doctors",
+    "category_id": "63be6904847c3692a84b9bcf"
+  },
+  {
+    "category_label": "Neurologists",
+    "category_id": "63be6904847c3692a84b9bd0"
+  },
+  {
+    "category_label": "Obstetrician Gynecologists (Ob-gyn)",
+    "category_id": "63be6904847c3692a84b9bd1"
+  },
+  {
+    "category_label": "Oncologists",
+    "category_id": "63be6904847c3692a84b9bd2"
+  },
+  {
+    "category_label": "Ophthalmologists",
+    "category_id": "63be6904847c3692a84b9bd3"
+  },
+  {
+    "category_label": "Oral Surgeons",
+    "category_id": "63be6904847c3692a84b9bd4"
+  },
+  {
+    "category_label": "Orthopedic Surgeons",
+    "category_id": "63be6904847c3692a84b9bd5"
+  },
+  {
+    "category_label": "Pathologists",
+    "category_id": "63be6904847c3692a84b9bd6"
+  },
+  {
+    "category_label": "Pediatricians",
+    "category_id": "63be6904847c3692a84b9bd7"
+  },
+  {
+    "category_label": "Plastic Surgeons",
+    "category_id": "63be6904847c3692a84b9bd8"
+  },
+  {
+    "category_label": "Psychiatrists",
+    "category_id": "63be6904847c3692a84b9bd9"
+  },
+  {
+    "category_label": "Radiologists",
+    "category_id": "63be6904847c3692a84b9bda"
+  },
+  {
+    "category_label": "Respiratory Doctors",
+    "category_id": "63be6904847c3692a84b9bdb"
+  },
+  {
+    "category_label": "Urologists",
+    "category_id": "63be6904847c3692a84b9bdc"
+  },
+  {
+    "category_label": "Podiatrists",
+    "category_id": "63be6904847c3692a84b9bdd"
+  },
+  {
+    "category_label": "Sports Medicine Clinics",
+    "category_id": "63be6904847c3692a84b9bde"
+  },
+  {
+    "category_label": "Urgent Care Centers",
+    "category_id": "56aa371be4b08b9a8d573526"
+  },
+  {
+    "category_label": "Veterinarians",
+    "category_id": "4d954af4a243a5684765b473"
+  },
+  {
+    "category_label": "Weight Loss Centers",
+    "category_id": "590a0744340a5803fd8508c3"
+  },
+  {
+    "category_label": "Women's Health Clinics",
+    "category_id": "63be6904847c3692a84b9bdf"
+  },
+  {
+    "category_label": "Landmarks and Outdoors",
+    "category_id": "4d4b7105d754a06377d81259"
+  },
+  {
+    "category_label": "Bathing Areas",
+    "category_id": "52e81612bcbc57f1066b7a28"
+  },
+  {
+    "category_label": "Bays",
+    "category_id": "56aa371be4b08b9a8d573544"
+  },
+  {
+    "category_label": "Beaches",
+    "category_id": "4bf58dd8d48988d1e2941735"
+  },
+  {
+    "category_label": "Bike Trails",
+    "category_id": "56aa371be4b08b9a8d57355e"
+  },
+  {
+    "category_label": "Boat Launches",
+    "category_id": "5fabfc8099ce226e27fe6b0d"
+  },
+  {
+    "category_label": "Botanical Gardens",
+    "category_id": "52e81612bcbc57f1066b7a22"
+  },
+  {
+    "category_label": "Bridges",
+    "category_id": "4bf58dd8d48988d1df941735"
+  },
+  {
+    "category_label": "Campgrounds",
+    "category_id": "4bf58dd8d48988d1e4941735"
+  },
+  {
+    "category_label": "Canal Locks",
+    "category_id": "56aa371be4b08b9a8d57353b"
+  },
+  {
+    "category_label": "Canals",
+    "category_id": "56aa371be4b08b9a8d573562"
+  },
+  {
+    "category_label": "Castles",
+    "category_id": "50aaa49e4b90af0d42d5de11"
+  },
+  {
+    "category_label": "Caves",
+    "category_id": "56aa371be4b08b9a8d573511"
+  },
+  {
+    "category_label": "Dams",
+    "category_id": "5fac018b99ce226e27fe7573"
+  },
+  {
+    "category_label": "Dive Spots",
+    "category_id": "52e81612bcbc57f1066b7a12"
+  },
+  {
+    "category_label": "Farms",
+    "category_id": "4bf58dd8d48988d15b941735"
+  },
+  {
+    "category_label": "Fields",
+    "category_id": "4bf58dd8d48988d15f941735"
+  },
+  {
+    "category_label": "Forests",
+    "category_id": "52e81612bcbc57f1066b7a23"
+  },
+  {
+    "category_label": "Fountains",
+    "category_id": "56aa371be4b08b9a8d573547"
+  },
+  {
+    "category_label": "Gardens",
+    "category_id": "4bf58dd8d48988d15a941735"
+  },
+  {
+    "category_label": "Harbors or Marinas",
+    "category_id": "4bf58dd8d48988d1e0941735"
+  },
+  {
+    "category_label": "Hiking Trails",
+    "category_id": "4bf58dd8d48988d159941735"
+  },
+  {
+    "category_label": "Hills",
+    "category_id": "5bae9231bedf3950379f89cd"
+  },
+  {
+    "category_label": "Historic and Protected Sites",
+    "category_id": "4deefb944765f83613cdba6e"
+  },
+  {
+    "category_label": "Hot Springs",
+    "category_id": "4bf58dd8d48988d160941735"
+  },
+  {
+    "category_label": "Islands",
+    "category_id": "50aaa4314b90af0d42d5de10"
+  },
+  {
+    "category_label": "Lakes",
+    "category_id": "4bf58dd8d48988d161941735"
+  },
+  {
+    "category_label": "Lighthouses",
+    "category_id": "4bf58dd8d48988d15d941735"
+  },
+  {
+    "category_label": "Memorial Sites",
+    "category_id": "5642206c498e4bfca532186c"
+  },
+  {
+    "category_label": "Monuments",
+    "category_id": "4bf58dd8d48988d12d941735"
+  },
+  {
+    "category_label": "Mountain Huts",
+    "category_id": "55a5a1ebe4b013909087cb77"
+  },
+  {
+    "category_label": "Mountains",
+    "category_id": "4eb1d4d54b900d56c88a45fc"
+  },
+  {
+    "category_label": "Nature Preserves",
+    "category_id": "52e81612bcbc57f1066b7a13"
+  },
+  {
+    "category_label": "Nudist Beaches",
+    "category_id": "52e81612bcbc57f1066b7a30"
+  },
+  {
+    "category_label": "Other Great Outdoors",
+    "category_id": "4bf58dd8d48988d162941735"
+  },
+  {
+    "category_label": "Palaces",
+    "category_id": "52e81612bcbc57f1066b7a14"
+  },
+  {
+    "category_label": "Parks",
+    "category_id": "4bf58dd8d48988d163941735"
+  },
+  {
+    "category_label": "Dog Parks",
+    "category_id": "4bf58dd8d48988d1e5941735"
+  },
+  {
+    "category_label": "National Parks",
+    "category_id": "52e81612bcbc57f1066b7a21"
+  },
+  {
+    "category_label": "Natural Parks",
+    "category_id": "63be6904847c3692a84b9be0"
+  },
+  {
+    "category_label": "Picnic Areas",
+    "category_id": "5fabfe3599ce226e27fe709a"
+  },
+  {
+    "category_label": "Playgrounds",
+    "category_id": "4bf58dd8d48988d1e7941735"
+  },
+  {
+    "category_label": "State or Provincial Parks",
+    "category_id": "5bae9231bedf3950379f89d0"
+  },
+  {
+    "category_label": "Urban Parks",
+    "category_id": "63be6904847c3692a84b9be1"
+  },
+  {
+    "category_label": "Pedestrian Plazas",
+    "category_id": "52e81612bcbc57f1066b7a25"
+  },
+  {
+    "category_label": "Picnic Shelters",
+    "category_id": "5fac010d99ce226e27fe7467"
+  },
+  {
+    "category_label": "Plazas",
+    "category_id": "4bf58dd8d48988d164941735"
+  },
+  {
+    "category_label": "Reservoirs",
+    "category_id": "56aa371be4b08b9a8d573541"
+  },
+  {
+    "category_label": "Rivers",
+    "category_id": "4eb1d4dd4b900d56c88a45fd"
+  },
+  {
+    "category_label": "Rock Climbing Spots",
+    "category_id": "50328a4b91d4c4b30a586d6b"
+  },
+  {
+    "category_label": "Roof Decks",
+    "category_id": "4bf58dd8d48988d133951735"
+  },
+  {
+    "category_label": "Scenic Lookouts",
+    "category_id": "4bf58dd8d48988d165941735"
+  },
+  {
+    "category_label": "Sculpture Gardens",
+    "category_id": "4bf58dd8d48988d166941735"
+  },
+  {
+    "category_label": "Stables",
+    "category_id": "4eb1baf03b7b2c5b1d4306ca"
+  },
+  {
+    "category_label": "States and Municipalities",
+    "category_id": "530e33ccbcbc57f1066bbfe4"
+  },
+  {
+    "category_label": "Cities",
+    "category_id": "50aa9e094b90af0d42d5de0d"
+  },
+  {
+    "category_label": "Counties",
+    "category_id": "5345731ebcbc57f1066c39b2"
+  },
+  {
+    "category_label": "Countries",
+    "category_id": "530e33ccbcbc57f1066bbff7"
+  },
+  {
+    "category_label": "Neighborhoods",
+    "category_id": "4f2a25ac4b909258e854f55f"
+  },
+  {
+    "category_label": "States",
+    "category_id": "530e33ccbcbc57f1066bbff8"
+  },
+  {
+    "category_label": "Towns",
+    "category_id": "530e33ccbcbc57f1066bbff3"
+  },
+  {
+    "category_label": "Villages",
+    "category_id": "530e33ccbcbc57f1066bbff9"
+  },
+  {
+    "category_label": "Structures",
+    "category_id": "4bf58dd8d48988d130941735"
+  },
+  {
+    "category_label": "Surf Spots",
+    "category_id": "4bf58dd8d48988d1e3941735"
+  },
+  {
+    "category_label": "Trees",
+    "category_id": "52e81612bcbc57f1066b7a24"
+  },
+  {
+    "category_label": "Tunnels",
+    "category_id": "52f2ab2ebcbc57f1066b8b4a"
+  },
+  {
+    "category_label": "Volcanoes",
+    "category_id": "5032848691d4c4b30a586d61"
+  },
+  {
+    "category_label": "Waterfalls",
+    "category_id": "56aa371be4b08b9a8d573560"
+  },
+  {
+    "category_label": "Waterfronts",
+    "category_id": "56aa371be4b08b9a8d5734c3"
+  },
+  {
+    "category_label": "Wells",
+    "category_id": "4fbc1be21983fc883593e321"
+  },
+  {
+    "category_label": "Windmills",
+    "category_id": "5bae9231bedf3950379f89c7"
+  },
+  {
+    "category_label": "Retail",
+    "category_id": "4d4b7105d754a06378d81259"
+  },
+  {
+    "category_label": "Adult Stores",
+    "category_id": "5267e446e4b0ec79466e48c4"
+  },
+  {
+    "category_label": "Antique Stores",
+    "category_id": "4bf58dd8d48988d116951735"
+  },
+  {
+    "category_label": "Arts and Crafts Stores",
+    "category_id": "4bf58dd8d48988d127951735"
+  },
+  {
+    "category_label": "Auction Houses",
+    "category_id": "63be6904847c3692a84b9be2"
+  },
+  {
+    "category_label": "Automotive Retail",
+    "category_id": "63be6904847c3692a84b9be3"
+  },
+  {
+    "category_label": "Car Dealerships",
+    "category_id": "4eb1c1623b7b52c0e1adc2ec"
+  },
+  {
+    "category_label": "Classic and Antique Car Dealerships",
+    "category_id": "63be6904847c3692a84b9be4"
+  },
+  {
+    "category_label": "New Car Dealerships",
+    "category_id": "5e8f50bd03c7a9000c1e2fbc"
+  },
+  {
+    "category_label": "RV and Motorhome Dealerships",
+    "category_id": "63be6904847c3692a84b9be5"
+  },
+  {
+    "category_label": "Used Car Dealerships",
+    "category_id": "5e8f501a03c7a9000c1e2e88"
+  },
+  {
+    "category_label": "Car Parts and Accessories",
+    "category_id": "63be6904847c3692a84b9be6"
+  },
+  {
+    "category_label": "Moped Dealerships",
+    "category_id": "63be6904847c3692a84b9be7"
+  },
+  {
+    "category_label": "Motor Scooter Dealerships",
+    "category_id": "63be6904847c3692a84b9be8"
+  },
+  {
+    "category_label": "Motorcycle Dealerships",
+    "category_id": "5032833091d4c4b30a586d60"
+  },
+  {
+    "category_label": "Motorsports Stores",
+    "category_id": "59d79d6b2e268052fa2a3332"
+  },
+  {
+    "category_label": "Baby Stores",
+    "category_id": "52f2ab2ebcbc57f1066b8b32"
+  },
+  {
+    "category_label": "Betting Shops",
+    "category_id": "52f2ab2ebcbc57f1066b8b40"
+  },
+  {
+    "category_label": "Big Box Stores",
+    "category_id": "52f2ab2ebcbc57f1066b8b42"
+  },
+  {
+    "category_label": "Board Stores",
+    "category_id": "4bf58dd8d48988d1f1941735"
+  },
+  {
+    "category_label": "Bookstores",
+    "category_id": "4bf58dd8d48988d114951735"
+  },
+  {
+    "category_label": "Used Bookstores",
+    "category_id": "52f2ab2ebcbc57f1066b8b30"
+  },
+  {
+    "category_label": "Boutiques",
+    "category_id": "4bf58dd8d48988d104951735"
+  },
+  {
+    "category_label": "Cannabis Stores",
+    "category_id": "63be6904847c3692a84b9be9"
+  },
+  {
+    "category_label": "Comic Book Stores",
+    "category_id": "52f2ab2ebcbc57f1066b8b18"
+  },
+  {
+    "category_label": "Computers and Electronics Retail",
+    "category_id": "63be6904847c3692a84b9bea"
+  },
+  {
+    "category_label": "Camera Stores",
+    "category_id": "4eb1bdf03b7b55596b4a7491"
+  },
+  {
+    "category_label": "Electronics Stores",
+    "category_id": "4bf58dd8d48988d122951735"
+  },
+  {
+    "category_label": "Mobile Phone Stores",
+    "category_id": "4f04afc02fb6e1c99f3db0bc"
+  },
+  {
+    "category_label": "Video Game Stores",
+    "category_id": "4bf58dd8d48988d10b951735"
+  },
+  {
+    "category_label": "Construction Supplies Stores",
+    "category_id": "5454144b498ec1f095bff2f2"
+  },
+  {
+    "category_label": "Convenience Stores",
+    "category_id": "4d954b0ea243a5684a65b473"
+  },
+  {
+    "category_label": "Cosmetics Stores",
+    "category_id": "4bf58dd8d48988d10c951735"
+  },
+  {
+    "category_label": "Costume Stores",
+    "category_id": "52f2ab2ebcbc57f1066b8b17"
+  },
+  {
+    "category_label": "Dance Stores",
+    "category_id": "63be6904847c3692a84b9beb"
+  },
+  {
+    "category_label": "Department Stores",
+    "category_id": "4bf58dd8d48988d1f6941735"
+  },
+  {
+    "category_label": "Discount Stores",
+    "category_id": "52dea92d3cf9994f4e043dbb"
+  },
+  {
+    "category_label": "Drugstores",
+    "category_id": "5745c2e4498e11e7bccabdbd"
+  },
+  {
+    "category_label": "Duty-free Stores",
+    "category_id": "589ddde98ae3635c072819ee"
+  },
+  {
+    "category_label": "Eyecare Stores",
+    "category_id": "4d954afda243a5684865b473"
+  },
+  {
+    "category_label": "Fashion Retail",
+    "category_id": "63be6904847c3692a84b9bec"
+  },
+  {
+    "category_label": "Batik Stores",
+    "category_id": "56aa371be4b08b9a8d5734cb"
+  },
+  {
+    "category_label": "Bridal Stores",
+    "category_id": "4bf58dd8d48988d11a951735"
+  },
+  {
+    "category_label": "Children's Clothing Stores",
+    "category_id": "4bf58dd8d48988d105951735"
+  },
+  {
+    "category_label": "Clothing Stores",
+    "category_id": "4bf58dd8d48988d103951735"
+  },
+  {
+    "category_label": "Fashion Accessories Stores",
+    "category_id": "4bf58dd8d48988d102951735"
+  },
+  {
+    "category_label": "Jewelry Stores",
+    "category_id": "4bf58dd8d48988d111951735"
+  },
+  {
+    "category_label": "Lingerie Stores",
+    "category_id": "4bf58dd8d48988d109951735"
+  },
+  {
+    "category_label": "Men's Stores",
+    "category_id": "4bf58dd8d48988d106951735"
+  },
+  {
+    "category_label": "Shoe Stores",
+    "category_id": "4bf58dd8d48988d107951735"
+  },
+  {
+    "category_label": "Sunglasses Stores",
+    "category_id": "63be6904847c3692a84b9bed"
+  },
+  {
+    "category_label": "Swimwear Stores",
+    "category_id": "63be6904847c3692a84b9bee"
+  },
+  {
+    "category_label": "Watch Stores",
+    "category_id": "52f2ab2ebcbc57f1066b8b2e"
+  },
+  {
+    "category_label": "Women's Stores",
+    "category_id": "4bf58dd8d48988d108951735"
+  },
+  {
+    "category_label": "Fireworks Stores",
+    "category_id": "52f2ab2ebcbc57f1066b8b3a"
+  },
+  {
+    "category_label": "Flea Markets",
+    "category_id": "4bf58dd8d48988d1f7941735"
+  },
+  {
+    "category_label": "Floating Markets",
+    "category_id": "56aa371be4b08b9a8d573505"
+  },
+  {
+    "category_label": "Flower Stores",
+    "category_id": "4bf58dd8d48988d11b951735"
+  },
+  {
+    "category_label": "Food and Beverage Retail",
+    "category_id": "4bf58dd8d48988d1f9941735"
+  },
+  {
+    "category_label": "Beer Stores",
+    "category_id": "5370f356bcbc57f1066c94c2"
+  },
+  {
+    "category_label": "Butchers",
+    "category_id": "4bf58dd8d48988d11d951735"
+  },
+  {
+    "category_label": "Candy Stores",
+    "category_id": "4bf58dd8d48988d117951735"
+  },
+  {
+    "category_label": "Cheese Stores",
+    "category_id": "4bf58dd8d48988d11e951735"
+  },
+  {
+    "category_label": "Chocolate Stores",
+    "category_id": "52f2ab2ebcbc57f1066b8b31"
+  },
+  {
+    "category_label": "Coffee Roasters",
+    "category_id": "5e18993feee47d000759b256"
+  },
+  {
+    "category_label": "Dairy Stores",
+    "category_id": "58daa1558bbb0b01f18ec1ca"
+  },
+  {
+    "category_label": "Farmers Markets",
+    "category_id": "4bf58dd8d48988d1fa941735"
+  },
+  {
+    "category_label": "Fish Markets",
+    "category_id": "4bf58dd8d48988d10e951735"
+  },
+  {
+    "category_label": "Fruit and Vegetable Stores",
+    "category_id": "52f2ab2ebcbc57f1066b8b1c"
+  },
+  {
+    "category_label": "Gourmet Stores",
+    "category_id": "4bf58dd8d48988d1f5941735"
+  },
+  {
+    "category_label": "Grocery Stores",
+    "category_id": "4bf58dd8d48988d118951735"
+  },
+  {
+    "category_label": "Organic Groceries",
+    "category_id": "52f2ab2ebcbc57f1066b8b45"
+  },
+  {
+    "category_label": "Health Food Stores",
+    "category_id": "50aa9e744b90af0d42d5de0e"
+  },
+  {
+    "category_label": "Herbs and Spices Stores",
+    "category_id": "52f2ab2ebcbc57f1066b8b2c"
+  },
+  {
+    "category_label": "Imported Food Stores",
+    "category_id": "5f2c41945b4c177b9a6dc7d6"
+  },
+  {
+    "category_label": "Kosher Stores",
+    "category_id": "63be6904847c3692a84b9bef"
+  },
+  {
+    "category_label": "Kuruyemişçi Shops",
+    "category_id": "58daa1558bbb0b01f18ec1e8"
+  },
+  {
+    "category_label": "Liquor Stores",
+    "category_id": "4bf58dd8d48988d186941735"
+  },
+  {
+    "category_label": "Meat and Seafood Stores",
+    "category_id": "63be6904847c3692a84b9bf0"
+  },
+  {
+    "category_label": "Sausage Stores",
+    "category_id": "56aa371be4b08b9a8d573564"
+  },
+  {
+    "category_label": "Supermarkets",
+    "category_id": "52f2ab2ebcbc57f1066b8b46"
+  },
+  {
+    "category_label": "Turşucu Shops",
+    "category_id": "58daa1558bbb0b01f18ec1e5"
+  },
+  {
+    "category_label": "Wine Stores",
+    "category_id": "4bf58dd8d48988d119951735"
+  },
+  {
+    "category_label": "Framing Stores",
+    "category_id": "52f2ab2ebcbc57f1066b8b24"
+  },
+  {
+    "category_label": "Furniture and Home Stores",
+    "category_id": "4bf58dd8d48988d1f8941735"
+  },
+  {
+    "category_label": "Carpet Stores",
+    "category_id": "52f2ab2ebcbc57f1066b8b2a"
+  },
+  {
+    "category_label": "Home Appliance Stores",
+    "category_id": "63be6904847c3692a84b9bf1"
+  },
+  {
+    "category_label": "Housewares Stores",
+    "category_id": "63be6904847c3692a84b9bf2"
+  },
+  {
+    "category_label": "Kitchen Supply Stores",
+    "category_id": "58daa1558bbb0b01f18ec1b4"
+  },
+  {
+    "category_label": "Lighting Stores",
+    "category_id": "55888a5a498e782e3303b43a"
+  },
+  {
+    "category_label": "Mattress Stores",
+    "category_id": "52f2ab2ebcbc57f1066b8b27"
+  },
+  {
+    "category_label": "Garden Centers",
+    "category_id": "4eb1c0253b7b52c0e1adc2e9"
+  },
+  {
+    "category_label": "Gift Stores",
+    "category_id": "4bf58dd8d48988d128951735"
+  },
+  {
+    "category_label": "Hardware Stores",
+    "category_id": "4bf58dd8d48988d112951735"
+  },
+  {
+    "category_label": "Hobby Stores",
+    "category_id": "4bf58dd8d48988d1fb941735"
+  },
+  {
+    "category_label": "Knitting Stores",
+    "category_id": "52f2ab2ebcbc57f1066b8b25"
+  },
+  {
+    "category_label": "Leather Goods Stores",
+    "category_id": "52f2ab2ebcbc57f1066b8b2b"
+  },
+  {
+    "category_label": "Luggage Stores",
+    "category_id": "52f2ab2ebcbc57f1066b8b29"
+  },
+  {
+    "category_label": "Marijuana Dispensaries",
+    "category_id": "52c71aaf3cf9994f4e043d17"
+  },
+  {
+    "category_label": "Markets",
+    "category_id": "50be8ee891d4fa8dcc7199a7"
+  },
+  {
+    "category_label": "Medical Supply Stores",
+    "category_id": "58daa1558bbb0b01f18ec206"
+  },
+  {
+    "category_label": "Miscellaneous Stores",
+    "category_id": "4bf58dd8d48988d1ff941735"
+  },
+  {
+    "category_label": "Mobility Stores",
+    "category_id": "56aa371be4b08b9a8d57354a"
+  },
+  {
+    "category_label": "Music Stores",
+    "category_id": "4bf58dd8d48988d1fe941735"
+  },
+  {
+    "category_label": "Newsagents",
+    "category_id": "5f2c5a295b4c177b9a6ddd0e"
+  },
+  {
+    "category_label": "Newsstands",
+    "category_id": "4f04ad622fb6e1c99f3db0b9"
+  },
+  {
+    "category_label": "Office Supply Stores",
+    "category_id": "4bf58dd8d48988d121951735"
+  },
+  {
+    "category_label": "Outdoor Supply Stores",
+    "category_id": "52f2ab2ebcbc57f1066b8b22"
+  },
+  {
+    "category_label": "Outlet Malls",
+    "category_id": "5744ccdfe4b0c0459246b4df"
+  },
+  {
+    "category_label": "Outlet Stores",
+    "category_id": "52f2ab2ebcbc57f1066b8b35"
+  },
+  {
+    "category_label": "Packaging Supply Stores",
+    "category_id": "63be6904847c3692a84b9bf3"
+  },
+  {
+    "category_label": "Party Supply Stores",
+    "category_id": "63be6904847c3692a84b9bf4"
+  },
+  {
+    "category_label": "Pawn Shops",
+    "category_id": "52f2ab2ebcbc57f1066b8b34"
+  },
+  {
+    "category_label": "Perfume Stores",
+    "category_id": "52f2ab2ebcbc57f1066b8b23"
+  },
+  {
+    "category_label": "Pet Supplies Stores",
+    "category_id": "4bf58dd8d48988d100951735"
+  },
+  {
+    "category_label": "Pharmacies",
+    "category_id": "4bf58dd8d48988d10f951735"
+  },
+  {
+    "category_label": "Pop-Up Stores",
+    "category_id": "52f2ab2ebcbc57f1066b8b3d"
+  },
+  {
+    "category_label": "Print Stores",
+    "category_id": "52f2ab2ebcbc57f1066b8b28"
+  },
+  {
+    "category_label": "Record Stores",
+    "category_id": "4bf58dd8d48988d10d951735"
+  },
+  {
+    "category_label": "Shopping Malls",
+    "category_id": "4bf58dd8d48988d1fd941735"
+  },
+  {
+    "category_label": "Shopping Plazas",
+    "category_id": "5744ccdfe4b0c0459246b4dc"
+  },
+  {
+    "category_label": "Smoke Shops",
+    "category_id": "4bf58dd8d48988d123951735"
+  },
+  {
+    "category_label": "Souvenir Stores",
+    "category_id": "52f2ab2ebcbc57f1066b8b1b"
+  },
+  {
+    "category_label": "Sporting Goods Retail",
+    "category_id": "4bf58dd8d48988d1f2941735"
+  },
+  {
+    "category_label": "Baseball Stores",
+    "category_id": "63be6904847c3692a84b9bf5"
+  },
+  {
+    "category_label": "Bicycle Stores",
+    "category_id": "4bf58dd8d48988d115951735"
+  },
+  {
+    "category_label": "Dive Stores",
+    "category_id": "52f2ab2ebcbc57f1066b8b1a"
+  },
+  {
+    "category_label": "Fishing Stores",
+    "category_id": "52f2ab2ebcbc57f1066b8b16"
+  },
+  {
+    "category_label": "Golf Stores",
+    "category_id": "63be6904847c3692a84b9bf6"
+  },
+  {
+    "category_label": "Gun Stores",
+    "category_id": "52f2ab2ebcbc57f1066b8b19"
+  },
+  {
+    "category_label": "Hunting Supply Stores",
+    "category_id": "50aaa5234b90af0d42d5de12"
+  },
+  {
+    "category_label": "Running Stores",
+    "category_id": "63be6904847c3692a84b9bf7"
+  },
+  {
+    "category_label": "Skate Stores",
+    "category_id": "5bae9231bedf3950379f89d2"
+  },
+  {
+    "category_label": "Ski Stores",
+    "category_id": "56aa371be4b08b9a8d573566"
+  },
+  {
+    "category_label": "Soccer Stores",
+    "category_id": "63be6904847c3692a84b9bf8"
+  },
+  {
+    "category_label": "Surf Stores",
+    "category_id": "63be6904847c3692a84b9bf9"
+  },
+  {
+    "category_label": "Tennis Stores",
+    "category_id": "63be6904847c3692a84b9bfa"
+  },
+  {
+    "category_label": "Stationery Stores",
+    "category_id": "52f2ab2ebcbc57f1066b8b21"
+  },
+  {
+    "category_label": "Supplement Stores",
+    "category_id": "5744ccdfe4b0c0459246b4cd"
+  },
+  {
+    "category_label": "Swimming Pool Supply Stores",
+    "category_id": "63be6904847c3692a84b9bfb"
+  },
+  {
+    "category_label": "Textiles Stores",
+    "category_id": "52f2ab2ebcbc57f1066b8b26"
+  },
+  {
+    "category_label": "Tobacco Stores",
+    "category_id": "63be6904847c3692a84b9bfc"
+  },
+  {
+    "category_label": "Toy Stores",
+    "category_id": "4bf58dd8d48988d1f3941735"
+  },
+  {
+    "category_label": "Vape Stores",
+    "category_id": "56aa371be4b08b9a8d57355c"
+  },
+  {
+    "category_label": "Video Stores",
+    "category_id": "4bf58dd8d48988d126951735"
+  },
+  {
+    "category_label": "Vintage and Thrift Stores",
+    "category_id": "4bf58dd8d48988d101951735"
+  },
+  {
+    "category_label": "Warehouse or Wholesale Stores",
+    "category_id": "52e816a6bcbc57f1066b7a54"
+  },
+  {
+    "category_label": "Sports and Recreation",
+    "category_id": "4f4528bc4b90abdf24c9de85"
+  },
+  {
+    "category_label": "Athletic Fields",
+    "category_id": "63be6904847c3692a84b9bfd"
+  },
+  {
+    "category_label": "Baseball",
+    "category_id": "63be6904847c3692a84b9bfe"
+  },
+  {
+    "category_label": "Baseball Clubs",
+    "category_id": "63be6904847c3692a84b9bff"
+  },
+  {
+    "category_label": "Baseball Fields",
+    "category_id": "4bf58dd8d48988d1e8941735"
+  },
+  {
+    "category_label": "Batting Cages",
+    "category_id": "63be6904847c3692a84b9c00"
+  },
+  {
+    "category_label": "Basketball",
+    "category_id": "63be6904847c3692a84b9c01"
+  },
+  {
+    "category_label": "Basketball Clubs",
+    "category_id": "63be6904847c3692a84b9c02"
+  },
+  {
+    "category_label": "Basketball Courts",
+    "category_id": "4bf58dd8d48988d1e1941735"
+  },
+  {
+    "category_label": "Bowling Greens",
+    "category_id": "52e81612bcbc57f1066b7a2f"
+  },
+  {
+    "category_label": "Cricket Grounds",
+    "category_id": "4bf58dd8d48988d18a941735"
+  },
+  {
+    "category_label": "Curling Ices",
+    "category_id": "56aa371be4b08b9a8d57351a"
+  },
+  {
+    "category_label": "Equestrian Facilities",
+    "category_id": "63be6904847c3692a84b9c04"
+  },
+  {
+    "category_label": "Fishing Areas",
+    "category_id": "52e81612bcbc57f1066b7a0f"
+  },
+  {
+    "category_label": "Football",
+    "category_id": "63be6904847c3692a84b9c05"
+  },
+  {
+    "category_label": "Football Clubs",
+    "category_id": "63be6904847c3692a84b9c06"
+  },
+  {
+    "category_label": "Football Fields",
+    "category_id": "63be6904847c3692a84b9c07"
+  },
+  {
+    "category_label": "Golf",
+    "category_id": "63be6904847c3692a84b9c08"
+  },
+  {
+    "category_label": "Golf Clubs",
+    "category_id": "63be6904847c3692a84b9c09"
+  },
+  {
+    "category_label": "Golf Courses",
+    "category_id": "4bf58dd8d48988d1e6941735"
+  },
+  {
+    "category_label": "Golf Driving Ranges",
+    "category_id": "58daa1558bbb0b01f18ec1b0"
+  },
+  {
+    "category_label": "Gun Ranges",
+    "category_id": "52e81612bcbc57f1066b7a11"
+  },
+  {
+    "category_label": "Gym and Studios",
+    "category_id": "4bf58dd8d48988d175941735"
+  },
+  {
+    "category_label": "Boxing Gyms",
+    "category_id": "52f2ab2ebcbc57f1066b8b47"
+  },
+  {
+    "category_label": "Climbing Gyms",
+    "category_id": "503289d391d4c4b30a586d6a"
+  },
+  {
+    "category_label": "Cycle Studios",
+    "category_id": "52f2ab2ebcbc57f1066b8b49"
+  },
+  {
+    "category_label": "Dance Studios",
+    "category_id": "4bf58dd8d48988d134941735"
+  },
+  {
+    "category_label": "Gym Pools",
+    "category_id": "4bf58dd8d48988d105941735"
+  },
+  {
+    "category_label": "Gyms",
+    "category_id": "4bf58dd8d48988d176941735"
+  },
+  {
+    "category_label": "Outdoor Gyms",
+    "category_id": "58daa1558bbb0b01f18ec203"
+  },
+  {
+    "category_label": "Pilates Studios",
+    "category_id": "5744ccdfe4b0c0459246b4b2"
+  },
+  {
+    "category_label": "Yoga Studios",
+    "category_id": "4bf58dd8d48988d102941735"
+  },
+  {
+    "category_label": "Gymnastics",
+    "category_id": "63be6904847c3692a84b9c0a"
+  },
+  {
+    "category_label": "Gymnastics Centers",
+    "category_id": "52f2ab2ebcbc57f1066b8b48"
+  },
+  {
+    "category_label": "Hockey",
+    "category_id": "63be6904847c3692a84b9c0b"
+  },
+  {
+    "category_label": "Hockey Clubs",
+    "category_id": "63be6904847c3692a84b9c0c"
+  },
+  {
+    "category_label": "Hockey Fields",
+    "category_id": "4f452cd44b9081a197eba860"
+  },
+  {
+    "category_label": "Hockey Rinks",
+    "category_id": "56aa371be4b08b9a8d57352c"
+  },
+  {
+    "category_label": "Hunting Areas",
+    "category_id": "63be6904847c3692a84b9c0d"
+  },
+  {
+    "category_label": "Indoor Play Areas",
+    "category_id": "5744ccdfe4b0c0459246b4b5"
+  },
+  {
+    "category_label": "Martial Arts Dojos",
+    "category_id": "4bf58dd8d48988d101941735"
+  },
+  {
+    "category_label": "Paintball Fields",
+    "category_id": "5032829591d4c4b30a586d5e"
+  },
+  {
+    "category_label": "Personal Trainers",
+    "category_id": "63be6904847c3692a84b9c0e"
+  },
+  {
+    "category_label": "Race Tracks",
+    "category_id": "4bf58dd8d48988d1f4931735"
+  },
+  {
+    "category_label": "Racecourses",
+    "category_id": "56aa371be4b08b9a8d573514"
+  },
+  {
+    "category_label": "Racquet Sports",
+    "category_id": "63be6904847c3692a84b9c0f"
+  },
+  {
+    "category_label": "Badminton Courts",
+    "category_id": "52e81612bcbc57f1066b7a2b"
+  },
+  {
+    "category_label": "Racquet Sport Clubs",
+    "category_id": "63be6904847c3692a84b9c10"
+  },
+  {
+    "category_label": "Racquetball Clubs",
+    "category_id": "63be6904847c3692a84b9c11"
+  },
+  {
+    "category_label": "Squash Courts",
+    "category_id": "52e81612bcbc57f1066b7a2d"
+  },
+  {
+    "category_label": "Tennis",
+    "category_id": "63be6904847c3692a84b9c12"
+  },
+  {
+    "category_label": "Tennis Clubs",
+    "category_id": "63be6904847c3692a84b9c13"
+  },
+  {
+    "category_label": "Tennis Courts",
+    "category_id": "4e39a956bd410d7aed40cbc3"
+  },
+  {
+    "category_label": "Recreation Centers",
+    "category_id": "52e81612bcbc57f1066b7a26"
+  },
+  {
+    "category_label": "Rugby",
+    "category_id": "63be6904847c3692a84b9c14"
+  },
+  {
+    "category_label": "Rugby Pitches",
+    "category_id": "52e81612bcbc57f1066b7a2c"
+  },
+  {
+    "category_label": "Running and Track",
+    "category_id": "63be6904847c3692a84b9c15"
+  },
+  {
+    "category_label": "Running Clubs",
+    "category_id": "63be6904847c3692a84b9c16"
+  },
+  {
+    "category_label": "Tracks",
+    "category_id": "4bf58dd8d48988d106941735"
+  },
+  {
+    "category_label": "Saunas",
+    "category_id": "58daa1558bbb0b01f18ec1ae"
+  },
+  {
+    "category_label": "Skating",
+    "category_id": "63be6904847c3692a84b9c17"
+  },
+  {
+    "category_label": "Skate Parks",
+    "category_id": "4bf58dd8d48988d167941735"
+  },
+  {
+    "category_label": "Skating Rinks",
+    "category_id": "4bf58dd8d48988d168941735"
+  },
+  {
+    "category_label": "Skydiving Centers",
+    "category_id": "63be6904847c3692a84b9c18"
+  },
+  {
+    "category_label": "Skydiving Drop Zones",
+    "category_id": "58daa1558bbb0b01f18ec1b9"
+  },
+  {
+    "category_label": "Snow Sports",
+    "category_id": "63be6904847c3692a84b9c19"
+  },
+  {
+    "category_label": "Ski Chalets",
+    "category_id": "4bf58dd8d48988d1ec941735"
+  },
+  {
+    "category_label": "Ski Lodges",
+    "category_id": "4bf58dd8d48988d1eb941735"
+  },
+  {
+    "category_label": "Ski Resorts and Areas",
+    "category_id": "4bf58dd8d48988d1e9941735"
+  },
+  {
+    "category_label": "Ski Chairlifts",
+    "category_id": "4eb1c0ed3b7b52c0e1adc2ea"
+  },
+  {
+    "category_label": "Ski Trails",
+    "category_id": "4eb1c0f63b7b52c0e1adc2eb"
+  },
+  {
+    "category_label": "Soccer",
+    "category_id": "63be6904847c3692a84b9c1a"
+  },
+  {
+    "category_label": "Soccer Clubs",
+    "category_id": "63be6904847c3692a84b9c1b"
+  },
+  {
+    "category_label": "Soccer Fields",
+    "category_id": "4cce455aebf7b749d5e191f5"
+  },
+  {
+    "category_label": "Sports Clubs",
+    "category_id": "52e81612bcbc57f1066b7a2e"
+  },
+  {
+    "category_label": "Volleyball Courts",
+    "category_id": "4eb1bf013b7b6f98df247e07"
+  },
+  {
+    "category_label": "Water Sports",
+    "category_id": "63be6904847c3692a84b9c1c"
+  },
+  {
+    "category_label": "Canoe and Kayak Rentals",
+    "category_id": "63be6904847c3692a84b9c1d"
+  },
+  {
+    "category_label": "Rafting Outfitter",
+    "category_id": "63be6904847c3692a84b9c1e"
+  },
+  {
+    "category_label": "Rafting Spots",
+    "category_id": "52e81612bcbc57f1066b7a29"
+  },
+  {
+    "category_label": "Sailing Clubs",
+    "category_id": "63be6904847c3692a84b9c1f"
+  },
+  {
+    "category_label": "Scuba Diving Instructors",
+    "category_id": "63be6904847c3692a84b9c20"
+  },
+  {
+    "category_label": "Surfing",
+    "category_id": "63be6904847c3692a84b9c21"
+  },
+  {
+    "category_label": "Swimming",
+    "category_id": "63be6904847c3692a84b9c22"
+  },
+  {
+    "category_label": "Swim Schools",
+    "category_id": "52e81612bcbc57f1066b7a44"
+  },
+  {
+    "category_label": "Swimming Clubs",
+    "category_id": "63be6904847c3692a84b9c23"
+  },
+  {
+    "category_label": "Swimming Pools",
+    "category_id": "4bf58dd8d48988d15e941735"
+  },
+  {
+    "category_label": "Travel and Transportation",
+    "category_id": "4d4b7105d754a06379d81259"
+  },
+  {
+    "category_label": "Baggage Lockers",
+    "category_id": "5744ccdfe4b0c0459246b4e8"
+  },
+  {
+    "category_label": "Bike Rentals",
+    "category_id": "4e4c9077bd41f78e849722f9"
+  },
+  {
+    "category_label": "Boat Rentals",
+    "category_id": "5744ccdfe4b0c0459246b4c1"
+  },
+  {
+    "category_label": "Boats or Ferries",
+    "category_id": "4bf58dd8d48988d12d951735"
+  },
+  {
+    "category_label": "Border Crossings",
+    "category_id": "52f2ab2ebcbc57f1066b8b4b"
+  },
+  {
+    "category_label": "Cable Cars",
+    "category_id": "52f2ab2ebcbc57f1066b8b50"
+  },
+  {
+    "category_label": "Cruises",
+    "category_id": "55077a22498e5e9248869ba2"
+  },
+  {
+    "category_label": "Electric Vehicle Charging Stations",
+    "category_id": "5032872391d4c4b30a586d64"
+  },
+  {
+    "category_label": "Fuel Stations",
+    "category_id": "4bf58dd8d48988d113951735"
+  },
+  {
+    "category_label": "Hot Air Balloon Tour Agencies",
+    "category_id": "63be6904847c3692a84b9c24"
+  },
+  {
+    "category_label": "Lodging",
+    "category_id": "63be6904847c3692a84b9c25"
+  },
+  {
+    "category_label": "Bed and Breakfasts",
+    "category_id": "4bf58dd8d48988d1f8931735"
+  },
+  {
+    "category_label": "Boarding Houses",
+    "category_id": "4f4530a74b9074f6e4fb0100"
+  },
+  {
+    "category_label": "Cabins",
+    "category_id": "63be6904847c3692a84b9c26"
+  },
+  {
+    "category_label": "Hostels",
+    "category_id": "4bf58dd8d48988d1ee931735"
+  },
+  {
+    "category_label": "Hotels",
+    "category_id": "4bf58dd8d48988d1fa931735"
+  },
+  {
+    "category_label": "Hotel Pools",
+    "category_id": "4bf58dd8d48988d132951735"
+  },
+  {
+    "category_label": "Inns",
+    "category_id": "5bae9231bedf3950379f89cb"
+  },
+  {
+    "category_label": "Lodges",
+    "category_id": "63be6904847c3692a84b9c27"
+  },
+  {
+    "category_label": "Motels",
+    "category_id": "4bf58dd8d48988d1fb931735"
+  },
+  {
+    "category_label": "Resorts",
+    "category_id": "4bf58dd8d48988d12f951735"
+  },
+  {
+    "category_label": "Vacation Rentals",
+    "category_id": "56aa371be4b08b9a8d5734e1"
+  },
+  {
+    "category_label": "Moving Targets",
+    "category_id": "4f2a23984b9023bd5841ed2c"
+  },
+  {
+    "category_label": "Parking",
+    "category_id": "4c38df4de52ce0d596b336e1"
+  },
+  {
+    "category_label": "Piers",
+    "category_id": "4e74f6cabd41c4836eac4c31"
+  },
+  {
+    "category_label": "Platforms",
+    "category_id": "4f4531504b9074f6e4fb0102"
+  },
+  {
+    "category_label": "Ports",
+    "category_id": "56aa371be4b08b9a8d57353e"
+  },
+  {
+    "category_label": "Rest Areas",
+    "category_id": "4d954b16a243a5684b65b473"
+  },
+  {
+    "category_label": "Roads",
+    "category_id": "4bf58dd8d48988d1f9931735"
+  },
+  {
+    "category_label": "Intersections",
+    "category_id": "52f2ab2ebcbc57f1066b8b4c"
+  },
+  {
+    "category_label": "RV Parks",
+    "category_id": "52f2ab2ebcbc57f1066b8b53"
+  },
+  {
+    "category_label": "Toll Booths",
+    "category_id": "52f2ab2ebcbc57f1066b8b4d"
+  },
+  {
+    "category_label": "Toll Plazas",
+    "category_id": "52f2ab2ebcbc57f1066b8b4e"
+  },
+  {
+    "category_label": "Tourist Information and Services",
+    "category_id": "4f4530164b9074f6e4fb00ff"
+  },
+  {
+    "category_label": "Tour Providers",
+    "category_id": "56aa371be4b08b9a8d573520"
+  },
+  {
+    "category_label": "Trains",
+    "category_id": "4bf58dd8d48988d12a951735"
+  },
+  {
+    "category_label": "Transport Hubs",
+    "category_id": "63be6904847c3692a84b9c28"
+  },
+  {
+    "category_label": "Airports",
+    "category_id": "4bf58dd8d48988d1ed931735"
+  },
+  {
+    "category_label": "Airfields",
+    "category_id": "5f2c42335b4c177b9a6dc927"
+  },
+  {
+    "category_label": "Airport Food Courts",
+    "category_id": "4bf58dd8d48988d1ef931735"
+  },
+  {
+    "category_label": "Airport Gates",
+    "category_id": "4bf58dd8d48988d1f0931735"
+  },
+  {
+    "category_label": "Airport Lounges",
+    "category_id": "4eb1bc533b7b2c5b1d4306cb"
+  },
+  {
+    "category_label": "Airport Services",
+    "category_id": "56aa371be4b08b9a8d57352f"
+  },
+  {
+    "category_label": "Airport Terminals",
+    "category_id": "4bf58dd8d48988d1eb931735"
+  },
+  {
+    "category_label": "Airport Ticket Counters",
+    "category_id": "60a674555c7917283bad6839"
+  },
+  {
+    "category_label": "Airport Tram Stations",
+    "category_id": "4bf58dd8d48988d1ec931735"
+  },
+  {
+    "category_label": "Baggage Claims",
+    "category_id": "5744ccdfe4b0c0459246b4e5"
+  },
+  {
+    "category_label": "International Airports",
+    "category_id": "63be6904847c3692a84b9c29"
+  },
+  {
+    "category_label": "Planes",
+    "category_id": "4bf58dd8d48988d1f7931735"
+  },
+  {
+    "category_label": "Private Airports",
+    "category_id": "63be6904847c3692a84b9c2a"
+  },
+  {
+    "category_label": "Bus Stations",
+    "category_id": "4bf58dd8d48988d1fe931735"
+  },
+  {
+    "category_label": "Bus Stops",
+    "category_id": "52f2ab2ebcbc57f1066b8b4f"
+  },
+  {
+    "category_label": "Heliports",
+    "category_id": "56aa371ce4b08b9a8d57356e"
+  },
+  {
+    "category_label": "Light Rail Stations",
+    "category_id": "4bf58dd8d48988d1fc931735"
+  },
+  {
+    "category_label": "Marine Terminals",
+    "category_id": "5f2c1af1b6d05514c704319d"
+  },
+  {
+    "category_label": "Metro Stations",
+    "category_id": "4bf58dd8d48988d1fd931735"
+  },
+  {
+    "category_label": "Rail Stations",
+    "category_id": "4bf58dd8d48988d129951735"
+  },
+  {
+    "category_label": "Rental Car Locations",
+    "category_id": "4bf58dd8d48988d1ef941735"
+  },
+  {
+    "category_label": "Taxi Stands",
+    "category_id": "53fca564498e1a175f32528b"
+  },
+  {
+    "category_label": "Tram Stations",
+    "category_id": "52f2ab2ebcbc57f1066b8b51"
+  },
+  {
+    "category_label": "Transportation Services",
+    "category_id": "54541b70498ea6ccd0204bff"
+  },
+  {
+    "category_label": "Charter Buses",
+    "category_id": "63be6904847c3692a84b9c2b"
+  },
+  {
+    "category_label": "Limo Services",
+    "category_id": "63be6904847c3692a84b9c2c"
+  },
+  {
+    "category_label": "Public Transportation",
+    "category_id": "63be6904847c3692a84b9c2d"
+  },
+  {
+    "category_label": "Bus Lines",
+    "category_id": "4bf58dd8d48988d12b951735"
+  },
+  {
+    "category_label": "Taxis",
+    "category_id": "4bf58dd8d48988d130951735"
+  },
+  {
+    "category_label": "Travel Agencies",
+    "category_id": "4f04b08c2fb6e1c99f3db0bd"
+  },
+  {
+    "category_label": "Travel Lounges",
+    "category_id": "4f04b25d2fb6e1c99f3db0c0"
+  },
+  {
+    "category_label": "Truck Stops",
+    "category_id": "57558b36e4b065ecebd306dd"
+  }
+]
