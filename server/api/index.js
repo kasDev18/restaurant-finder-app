@@ -37,36 +37,32 @@ const getQueryInJSON = async (query) => {
 
 const findQueryAPI = async (params) => {
   const arr = [];
-  if (params) {
-    const cuisines = params.query.split(" ");
-    cuisines.forEach((cuisine) => {
-      const query =
-        cuisine.substring(0, 1).toUpperCase() + cuisine.substring(1);
-      arr.push(query);
-    });
-    const allQuery = arr.reduce((a, b) => a + " " + b);
+  const cuisines = params.query.split(" ");
+  cuisines.forEach((cuisine) => {
+    const query = cuisine.substring(0, 1).toUpperCase() + cuisine.substring(1);
+    arr.push(query);
+  });
+  const allQuery = arr.reduce((a, b) => a + " " + b);
 
-    const arrCategory = [];
-    categories.find((category) => {
-      // console.log(allQuery);
+  const arrCategory = [];
+  categories.find((category) => {
+    // console.log(allQuery);
 
-      if (category.category_label.includes(allQuery)) {
-        arrCategory.push(category);
-      }
-    });
+    if (category.category_label.includes(allQuery)) {
+      arrCategory.push(category);
+    }
+  });
 
-    console.log(arrCategory);
+  console.log(arrCategory);
 
-    //   const response = await fetch(`${fsuri}/search?near=${params.city}&query=${params.cuisine}`, {
-    const response = await fetch(`${fsuri}/search`, {
-      method: "GET",
-      headers: {
-        //   accept: "application/json",
-        Authorization: fsapikey,
-      },
-    });
-  }
-
+  //   const response = await fetch(`${fsuri}/search?near=${params.city}&query=${params.cuisine}`, {
+  const response = await fetch(`${fsuri}/search`, {
+    method: "GET",
+    headers: {
+      //   accept: "application/json",
+      Authorization: fsapikey,
+    },
+  });
   //   const data = await response.json();
   //   return data;
 };
