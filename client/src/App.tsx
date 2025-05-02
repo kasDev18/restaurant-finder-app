@@ -2,11 +2,11 @@
 import React, { useState } from 'react'
 
 function App() {
-  const [query, setQuery] = useState("")
+  const [query, setQuery] = useState<string>('');
   
   const handleSubmit: React.FormEventHandler<HTMLFormElement> = async(event) => {
     event.preventDefault();
-    const response = await fetch(`/api/execute`, {
+    const response: Response = await fetch(`/api/execute`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
