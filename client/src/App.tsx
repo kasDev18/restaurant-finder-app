@@ -23,7 +23,7 @@ function App() {
       <div className="h-screen w-1/2 bg-white items-center flex flex-col py-4">
         <span className="text-black">Find restaurants here</span>
         <form className="flex items-center justify-center" onSubmit={handleSubmit}>  
-          <input value={query} type="text" placeholder="Search Restaurant" className="input input-sm w-[35vw]" onChange={(event) => setQuery(event.target.value)} />
+          <input value={query} type="text" placeholder="Search Restaurant" className="input input-sm w-[35vw]" onChange={(event) => setQuery(event.target.value)} required/>
           <button type='submit' className="btn btn-neutral btn-sm">Search</button>
         </form>
       </div>
