@@ -1,24 +1,38 @@
 // import './App.css'
 import React, { useState } from 'react'
+import toast, { Toaster } from 'react-hot-toast'
+
 
 function App() {
   const [query, setQuery] = useState<string>('');
   
   const handleSubmit: React.FormEventHandler<HTMLFormElement> = async(event) => {
     event.preventDefault();
-    const response: Response = await fetch(`/api/execute`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ query }),
-    });
-    const data = await response.json();
-    console.log(data.data);  
+    try {
+      const response: Response = await fetch(`/api/execute`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ query }),
+      });
+      const data = await response.json();
+
+      if (data.error) {
+        toast.error(data.message);
+        return;
+      }
+
+      console.log(data);
+      
+    } catch (err) {
+      toast.error('Network or server error.');
+    }
   }
   
-
   return (
+    <>
+    <Toaster position="top-center" reverseOrder={false} />
     <div className='flex bg-[url("/images/bg-food.jpeg")] w-screen h-screen justify-center'>
       <div className="h-screen w-1/2 bg-white items-center flex flex-col py-4">
         <span className="text-black">Find restaurants here</span>
@@ -28,6 +42,7 @@ function App() {
         </form>
       </div>
     </div>
+    </>
   );
 }
 
