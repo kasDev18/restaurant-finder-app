@@ -1,7 +1,9 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
+
 import { getQueryInJSON } from "./api";
+import { QueryParamsProps } from "./types/query";
 
 const app = express();
 dotenv.config();
@@ -9,77 +11,29 @@ dotenv.config();
 app.use(cors());
 app.use(express.json());
 
+app.post(
+  "/api/execute",
+  async (req: express.Request, res: express.Response): Promise<void> => {
+    try {
+      const { query } = req.body;
 
+      const parsedResponse = await getQueryInJSON(
+        query
+      ); /* Convert query to JSON object (should return an object, not a string) */
+      const { search_for, parameters } = JSON.parse(
+        parsedResponse
+      ) as QueryParamsProps; /* Destructure the search_for and parameters from the parsed JSON object */
 
-app.post("/api/execute", async (req, res) => {
-  const { query } = req.body;
-
-  /* Convert query to JSON */
-  const jsonResponse = await getQueryInJSON(query);
-  const parsedResponse = JSON.parse(jsonResponse);
-  const { search_for, parameters } = parsedResponse;
-
-  res.status(200).json({
-    data: jsonResponse,
-  });
-
-  // /* Prevent non-restaurant queries condition */
-  // if (search_for.toLowerCase() !== "restaurant") {
-  //   res.status(200).json({
-  //     data: `${search_for} is not a valid search type`,
-  //   });
-  // } else {
-  //   const findQuery = await findQueryAPI(parameters);
-    
-
-  //   // res.status(200).json({
-  //   //   data: jsonResponse,
-  //   // });
-
-  //   let array = [];
-
-  //   if(findQuery.length){
-  //     res.status(200).json({
-  //       data: findQuery,
-  //     });
-  //   }else{
-  //     res.status(200).json({
-  //       data: "No results found",
-  //     });
-  //   }
-
-    // if (findQuery.length > 1) {
-    //   findQuery.reduce((a, b) => {
-    //     let newObj = { ...a, ...b };
-    //     array.push(newObj);
-    //   });
-
-    //   res.status(200).json({
-    //     data: array,
-    //   });
-    // }else{
-    //   res.status(200).json({
-    //     data: findQuery,
-    //   });
-    // }
-
-    // console.log(findQuery);
-
-    // findQuery.forEach((query, index) => {
-    //   array.push(findQuery[index])
-    // })
-
-  // }
-  // console.log(findQuery);
-
-  // res.status(200).json({
-  //   command: findQuery,
-  // });
-
-  // res.status(200).json({
-  //     command: openaiData.choices[0].message.content,
-  //   });
-});
+      res.status(200).json(JSON.parse(parsedResponse));
+    } catch (error) {
+      res.status(500).json({
+        error: true,
+        message: "An error occurred while processing your request.",
+        details: error instanceof Error ? error.message : "Unknown error",
+      });
+    }
+  }
+);
 
 app.listen(process.env.PORT, () => {
   console.log("Server is running on port", process.env.PORT);
