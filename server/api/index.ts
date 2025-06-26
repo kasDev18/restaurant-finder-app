@@ -1,15 +1,16 @@
-import { openAIProps, FSAPIProps } from "../types/api";
+import { OpenAIProps, OpenAIResponseProps, FSAPIProps } from "../types/api";
+import { QueryErrorProps, QueryProp } from "../types/query";
 
 require("dotenv").config();
 
 /* Environment variables */
 const { OPENAI_APP_BASE_URI, OPENAI_API_KEY, OPENAI_APP_MODEL } =
-  process.env as openAIProps;
+  process.env as OpenAIProps;
 const { FS_URI, FS_API_KEY } = process.env as FSAPIProps;
 
-export const getQueryInJSON = async (query: string): Promise<string> => {
+export const getQueryInJSON = async (query: QueryProp): Promise<string> => {
   try {
-    const openaiResponse = await fetch(OPENAI_APP_BASE_URI, {
+    const openaiResponse: Response = await fetch(OPENAI_APP_BASE_URI, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -27,7 +28,7 @@ export const getQueryInJSON = async (query: string): Promise<string> => {
         temperature: 0.7,
       }),
     });
-    const openaiData = await openaiResponse.json();
+    const openaiData: OpenAIResponseProps = await openaiResponse.json();
 
     return openaiData.choices[0].message.content;
   } catch (error) {
@@ -36,7 +37,7 @@ export const getQueryInJSON = async (query: string): Promise<string> => {
       error: true,
       error_type: "API_ERROR",
       message: "Failed to fetch data from the API. Contact support.",
-    });
+    } as QueryErrorProps);
   }
 };
 
