@@ -15,31 +15,32 @@ import { QueryParamsProps, QueryProp, QueryErrorProps } from "../types/query";
 export const getRestaurants = async (
   req: express.Request<QueryProp>,
   res: express.Response<QueryParamsProps | QueryErrorProps>
-): Promise<any> => {
+): Promise<void> => {
   try {
     const { query } = req.body;
     console.log("Receiving query...");
     console.log(query);
 
     /* Convert query to JSON object (should return an object, not a string) */
-    const parsedResponse = await getQueryInJSON(query.message);
-    const parsedJson = JSON.parse(parsedResponse);
+    const response = await getQueryInJSON(query.message);
+    
 
-    /* Destructure error and error_type from the parsed JSON object */
-    const { error_type } = parsedJson as QueryErrorProps;
+    // /* Destructure error and error_type from the parsed JSON object */
+    const { error_type } = response as QueryErrorProps;
 
-    /* Handle different error types */
-    if (error_type === "INVALID_SEARCH_TYPE") {
-      res.status(406).json(parsedJson); /* 406 Not Acceptable */
-      return parsedJson;
-    } else if (error_type === "API_ERROR") {
-      res.status(500).json(parsedJson); /* 500 Internal Server Error */
-      return parsedJson;
+    if (response.error) {
+      if (error_type === "INVALID_SEARCH_TYPE") {
+        res.status(406).json(response); /* 406 Not Acceptable */
+      }else if (error_type === "API_ERROR") {   
+        res.status(500).json(response); /* 500 Internal Server Error */
+      }
     }
-    console.log(parsedJson);
 
-    // res.status(200).json(parsedJson);
-    return parsedJson;
+    /* If no error, send the parsed JSON object as a response */
+    // const parsedResponse = JSON.parse(response)
+    res.status(200).json(response); /* 200 OK */
+    console.log("Response sent successfully!");
+    // res.status(200).json(parsedResponse); /* 200 OK */
   } catch (error) {
     /* Handle any unexpected errors */
     const errorObj = {
@@ -47,6 +48,35 @@ export const getRestaurants = async (
       message: "An error occurred while processing your request.",
       details: error instanceof Error ? error.message : "Unknown error",
     } as QueryErrorProps;
+
     res.status(500).json(errorObj); /* 500 Internal Server Error */
   }
 };
+
+// export const findRestaurants = async (
+//     req: express.Request<QueryProp>,
+//     res: express.Response<QueryParamsProps | QueryErrorProps>
+// ): Promise<void> => {
+//     // Implement the logic to find restaurants based on the parsed JSON object
+//     // This could involve querying a database or an external API
+//     // For now, we will just return a mock response
+
+//     const mockResponse = {
+//         search_for: "restaurant",
+//         parameters: {
+//             food: ["pizza", "sushi"],
+//             near: "New York",
+//             rating: 4.5,
+//             price_level: 2,
+//             operating_hours: "10:00-22:00",
+//             open_now: true,
+//             latitude: 40.7128,
+//             longitude: -74.0060,
+//             radius: 5000,
+//             min_price: 10,
+//             max_price: 50
+//         }
+//     };
+
+//     res.status(200).json(mockResponse);
+// };
