@@ -1,3 +1,7 @@
+export type Request<T = string> = {
+  query: T;
+};
+
 export type QueryParamsProps = {
   search_for: string;
   parameters: {

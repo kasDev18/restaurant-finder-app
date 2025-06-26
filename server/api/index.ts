@@ -1,4 +1,3 @@
-import e from "express";
 import { openAIProps, FSAPIProps } from "../types/api";
 
 require("dotenv").config();
