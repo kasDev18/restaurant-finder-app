@@ -1,20 +1,27 @@
-export type Request<T = string> = {
+export type QueryProp<T = string> = {
   query: T;
 };
 
-export type QueryParamsProps = {
-  search_for: string;
+export type QueryParamsProps<T = string, U = string[], V = number | null, W = boolean | null, X = string | null > = {
+  search_for: T;
   parameters: {
-    food: string[];
-    near: string | null;
-    rating: number | null;
-    price_level: number | null;
-    operating_hours: string | null;
-    open_now: boolean | null;
-    latitude: number | null;
-    longitude: number | null;
-    radius: number | null;
-    min_price: number | null;
-    max_price: number | null;
+    food: U;
+    near: X;
+    rating: V;
+    price_level: V;
+    operating_hours: X;
+    open_now: W;
+    latitude: V;
+    longitude: V;
+    radius: V;
+    min_price: V;
+    max_price: V;
   };
 };
+
+export type QueryErrorProps<T = boolean, U = string> = {
+  error: T;
+  error_type: U;
+  message: U;
+  details?: U;
+}
