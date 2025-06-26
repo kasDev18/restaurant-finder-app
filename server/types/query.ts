@@ -1,5 +1,7 @@
 export type QueryProp<T = string> = {
-  query: T;
+  query: {
+    message: T;
+  };
 };
 
 export type QueryParamsProps<T = string, U = string[], V = number | null, W = boolean | null, X = string | null > = {

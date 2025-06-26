@@ -9,6 +9,7 @@ const { OPENAI_APP_BASE_URI, OPENAI_API_KEY, OPENAI_APP_MODEL } =
 const { FS_URI, FS_API_KEY } = process.env as FSAPIProps;
 
 export const getQueryInJSON = async (query: QueryProp): Promise<string> => {
+  console.log("Parsing response...");
   try {
     const openaiResponse: Response = await fetch(OPENAI_APP_BASE_URI, {
       method: "POST",
