@@ -1,49 +1,67 @@
 // import './App.css'
-import React, { useState } from 'react'
-import toast, { Toaster } from 'react-hot-toast'
-
+import React, { useState } from "react";
+import toast, { Toaster } from "react-hot-toast";
 
 function App() {
   // Use an object for query state
-  const [query, setQuery] = useState<{ message: string }>({ message: '' });
-  
-  const handleSubmit: React.FormEventHandler<HTMLFormElement> = async(event) => {
+  const [query, setQuery] = useState<{ message: string }>({ message: "" });
+
+  const handleSubmit: React.FormEventHandler<HTMLFormElement> = async (
+    event
+  ) => {
     event.preventDefault();
     try {
-      console.log('Submitting query...');
-      
-      const response: Response = await fetch(`/api/execute`, {
-        method: 'POST',
+      console.log("Submitting query...");
+
+      const getRestaurants: Response = await fetch(`/api/execute`, {
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
-        body: JSON.stringify({ query }), // send as { query: { message: string } }
+        body: JSON.stringify({
+          query,
+        }) /* send as { query: { message: string } } */,
       });
-      const data = await response.json();
+      const response = await getRestaurants.json();
 
-      if (data.error) {
-        toast.error(data.message);
-        return;
+      if (response.error) {
+        console.error("Error in response:", response.message);
+        return toast.error(response.message);
+      }else if(!response.length) {
+        console.log("No restaurants found for your query.");
+        return toast.error("No restaurants found for your query.");
       }
-
-      console.log(data);
+      console.log("Restaurants found:", response);
+      
     } catch (err) {
-      toast.error('Network or server error.');
+      toast.error("Network or server error.");
     }
-  }
-  
+  };
+
   return (
     <>
-    <Toaster position="top-center" reverseOrder={false} />
-    <div className='flex bg-[url("/images/bg-food.jpeg")] w-screen h-screen justify-center'>
-      <div className="h-screen w-1/2 bg-white items-center flex flex-col py-4">
-        <span className="text-black">Find restaurants here</span>
-        <form className="flex items-center justify-center" onSubmit={handleSubmit}>  
-          <input value={query.message} type="text" placeholder="Search Restaurant" className="input input-sm w-[35vw]" onChange={(event) => setQuery({ message: event.target.value })} required/>
-          <button type='submit' className="btn btn-neutral btn-sm">Search</button>
-        </form>
+      <Toaster position="top-center" reverseOrder={false} />
+      <div className='flex bg-[url("/images/bg-food.jpeg")] w-screen h-screen justify-center'>
+        <div className="h-screen w-1/2 bg-white items-center flex flex-col py-4">
+          <span className="text-black">Find restaurants here</span>
+          <form
+            className="flex items-center justify-center"
+            onSubmit={handleSubmit}
+          >
+            <input
+              value={query.message}
+              type="text"
+              placeholder="Search Restaurant"
+              className="input input-sm w-[35vw]"
+              onChange={(event) => setQuery({ message: event.target.value })}
+              required
+            />
+            <button type="submit" className="btn btn-neutral btn-sm">
+              Search
+            </button>
+          </form>
+        </div>
       </div>
-    </div>
     </>
   );
 }

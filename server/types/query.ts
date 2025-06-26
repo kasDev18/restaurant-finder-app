@@ -4,20 +4,21 @@ export type QueryProp<T = string> = {
   };
 };
 
-export type QueryParamsProps<T = string, U = string[], V = number | null, W = boolean | null, X = string | null > = {
+export type QueryParamsProps<T = string, U = string[], V = number, W = boolean, X = string > = {
   search_for: T;
   parameters: {
-    food: U;
+    food?: U;
     near: X;
-    rating: V;
-    price_level: V;
+    rating?: V;
+    limit?: V;
+    price_level?: V;
     operating_hours: X;
     open_now: W;
-    latitude: V;
-    longitude: V;
-    radius: V;
-    min_price: V;
-    max_price: V;
+    latitude?: V;
+    longitude?: V;
+    radius_meters?: V;
+    min_price?: V;
+    max_price?: V;
   };
 };
 
