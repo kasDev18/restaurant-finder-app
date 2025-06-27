@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import toast from "react-hot-toast";
 import {
-  findRestaurantDetails,
   getRestaurants,
 } from "../utils/api/restaurants";
 export default function Home() {
@@ -13,19 +12,20 @@ export default function Home() {
   ) => {
     event.preventDefault();
     try {
-      console.log("Submitting query...");
-
+      console.log("Submitting request...");
       const response = await getRestaurants(
         query.message
       ); /* Call getRestaurants function to fetch restaurants */
 
-      if (!response.error || response.length > 0) {
-        response.forEach(async (placeId: { fsq_id: string }) => {
-          /* Call findRestaurantDetails function to fetch restaurant details */
-          const getDetails = await findRestaurantDetails(placeId.fsq_id);
-          setRestaurants((prev: any) => [...prev, getDetails]);
-        });
+      if(response.error) {
+        console.error("Error fetching restaurants:", response.message);
+        toast.error(response.message);
+        return;
       }
+
+      console.log("Restaurants fetched successfully!");
+      
+      setRestaurants(response);
       
     } catch (err) {
       toast.error("Network or server error.");
@@ -33,6 +33,8 @@ export default function Home() {
   };
 
   console.log(restaurants);
+  
+
   return (
     <div className='flex bg-[url("/images/bg-food.jpeg")] w-screen h-screen justify-center'>
       <div className="h-screen w-1/2 bg-white items-center flex flex-col py-4">
