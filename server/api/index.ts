@@ -1,4 +1,3 @@
-import { log } from "util";
 import { OpenAIProps, OpenAIResponseProps, FSAPIProps } from "../types/api";
 import { QueryErrorProps, QueryProp, QueryParamsProps } from "../types/query";
 
