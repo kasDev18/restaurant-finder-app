@@ -7,7 +7,7 @@ export type QueryProp<T = string> = {
 export type QueryParamsProps<T = string, U = string[], V = number, W = boolean, X = string > = {
   search_for: T;
   parameters: {
-    food?: U;
+    cuisine?: U;
     near: X;
     rating?: V;
     limit?: V;

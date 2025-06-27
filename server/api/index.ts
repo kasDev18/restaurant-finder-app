@@ -1,13 +1,23 @@
-import { OpenAIProps, OpenAIResponseProps, FSAPIProps } from "../types/api";
+import { OpenAIProps, OpenAIResponseProps, FSAPIProps, FoursquarePhoto, FoursquarePlace } from "../types/api";
 import { QueryErrorProps, QueryProp, QueryParamsProps } from "../types/query";
 
 require("dotenv").config();
+
 
 /* Environment variables */
 const { OPENAI_APP_BASE_URI, OPENAI_API_KEY, OPENAI_APP_MODEL } =
   process.env as OpenAIProps;
 const { FS_URI, FS_API_KEY } = process.env as FSAPIProps;
 
+/**
+ * DOCU: This function is used to send the query to the OpenAI API and then get the response back as a JSON object <br>
+ * This is being called in the `restaurantRouter.post('/execute', getRestaurants)` <br>
+ * Last Updated Date: June 26, 2025 <br>
+ * @function
+ * @param {string} query
+ * @returns {Promise<void>}
+ * @author Kas
+ */
 export const getQueryInJSON = async (query: QueryProp): Promise<any> => {
   console.log("Parsing response...");
   try {
@@ -32,7 +42,7 @@ export const getQueryInJSON = async (query: QueryProp): Promise<any> => {
     const openaiData: OpenAIResponseProps = await openaiResponse.json();
     const parsedJson = JSON.parse(openaiData.choices[0].message.content);
 
-    // Check if the response contains an error
+    /* Check if the response contains an error */
     if (parsedJson.error) {
       console.log("Parsing failed!!!");
       console.error("Error in response:", parsedJson.message);
@@ -41,11 +51,8 @@ export const getQueryInJSON = async (query: QueryProp): Promise<any> => {
 
     console.log("Parsing successful!!!");
     console.log(parsedJson);
-    // Pass limit to downstream if present, default to 50
-    if (!parsedJson.parameters.limit) {
-      parsedJson.parameters.limit = 50;
-    }
-    return await findRestaurantsFSAPI(parsedJson);
+
+    return parsedJson;
   } catch (error) {
     console.error("Error fetching query in JSON:", error);
     return {
@@ -56,6 +63,17 @@ export const getQueryInJSON = async (query: QueryProp): Promise<any> => {
   }
 };
 
+
+/**
+ * DOCU: This function is used to build the URL for the FourSquare API <br>
+ * This is being called in the `FindRestaurantsFSAPI` <br>
+ * Last Updated Date: June 26, 2025 <br>
+ * @function
+ * @params {string} baseUrl
+ * @params {Record<string, any>} params
+ * @returns {Promise<void>}
+ * @author Kas
+ */
 const buildFSApiUrl = (baseUrl: string, params: Record<string, any>) => {
   const url = new URL(`${baseUrl}/search`); /* URL object */
   Object.entries(params).forEach(([key, value]) => {
@@ -66,114 +84,145 @@ const buildFSApiUrl = (baseUrl: string, params: Record<string, any>) => {
   return url.toString();
 };
 
+
+/**
+ * DOCU: This function is used to get the restaurants from the FourSquare API based on the parameters. <br>
+ * This is being called in the `getRestaurants` <br>
+ * Last Updated Date: June 26, 2025 <br>
+ * @function
+ * @params {QueryParamsProps} params
+ * @returns {Promise<void>}
+ * @author Kas
+ */
 export const findRestaurantsFSAPI = async <T extends QueryParamsProps>(
   params: T
 ): Promise<void> => {
   console.log("Finding restaurants using FourSquare API...");
+  try {
+    const { parameters } = params;
 
-  const { parameters } = params;
+    /* Build query parameters */
+    const queryParams: Record<string, any> = {
+      near: parameters.near,
+      query: parameters.cuisine?.join(",") || "",
+      open_now: parameters.open_now,
+      limit: 2,
+      rating: parameters.rating,
+      price_level: parameters.price_level,
+      operating_hours: parameters.operating_hours,
+      latitude: parameters.latitude,
+      longitude: parameters.longitude,
+      radius: parameters.radius_meters,
+      min_price: parameters.min_price,
+      max_price: parameters.max_price,
+      categories: "4d4b7105d754a06374d81259",
+    };
 
-  // console.log(buildFSApiUrl(FS_URI, parameters));
+    const url = buildFSApiUrl(FS_URI, queryParams);
 
-  // Usage example:
-  const queryParams: Record<string, any> = {
-    near: parameters.near,
-    query: parameters.food?.join(",") || "",
-    open_now: parameters.open_now,
-    limit: 2,
-    rating: parameters.rating,
-    price_level: parameters.price_level,
-    operating_hours: parameters.operating_hours,
-    latitude: parameters.latitude,
-    longitude: parameters.longitude,
-    radius: parameters.radius_meters,
-    min_price: parameters.min_price,
-    max_price: parameters.max_price,
-    // categories: "4d4b7105d754a06374d5d506", // Category ID for restaurants
-    categories: "4d4b7105d754a06374d81259"
-  };
+    const res = await fetch(url, {
+      method: "GET",
+      headers: {
+        accept: "application/json",
+        Authorization: FS_API_KEY,
+      },
+    });
 
-  const url = buildFSApiUrl(FS_URI, queryParams);
+    const data = await res.json();
 
-  const res = await fetch(url, {
-    method: "GET",
-    headers: {
-      accept: "application/json",
-      Authorization: FS_API_KEY,
-    },
-  });
-
-  // console.log(queryParams);
-
-  const data = await res.json();
-  // console.log(data.results);
-
-  return data.results;
+    console.log("Found restaurants:");
+    console.log(data.results);
+    return data.results;
+  } catch (error) {
+    console.error("Error fetching restaurants:", error);
+    return;
+  }
 };
 
-// export const 
 
-// export const findQueryAPI = async (params) => {
-//   let queryArr = [];
-//   const cuisines = params.query;
-//   cuisines.forEach((cuisine) => {
-//     const query =
-//       cuisine.substring(0, 1).toUpperCase() +
-//       cuisine.substring(1); /* Convert to title case */
-//     queryArr.push(query);
-//   });
+/**
+ * DOCU: This function is used to get the restaurant details from the FourSquare API based on the placeId. <br>
+ * This is being called in the `findRestaurants` <br>
+ * Last Updated Date: June 26, 2025 <br>
+ * @function
+ * @params {string} placeId
+ * @returns {Promise<void>}
+ * @author Kas
+ */
+export const findRestaurantDetails = async (
+  placeId: string
+): Promise<string> => {
+  try {
+    const response: Response = await fetch(
+      `${FS_URI}/${placeId}?fields=fsq_id,name,location,categories,rating,price,hours`,
+      {
+        method: "GET",
+        headers: {
+          Accept: "application/json",
+          Authorization: FS_API_KEY,
+        },
+      }
+    );
+    const data: FoursquarePlace = await response.json();
 
-//   let array = [];
-//   // console.log(params.near);
+    console.log("Found restaurant details:");
+    console.log(data);
 
-//   // if (params.open_now) {
-//     for (let i = 0; i < queryArr.length; i++) {
-//       const response = await fetch(
-//         `${fsuri}/search?near=${params.near}&query=${queryArr[i]}&open_now=${params.open_now}&limit=50`,
-//         {
-//           method: "GET",
-//           headers: {
-//             accept: "application/json",
-//             Authorization: fsapikey,
-//           },
-//         }
-//       );
-//       const data = await response.json();
+    const photoUrl: FoursquarePhoto[] = await getRestaurantsPhoto(placeId);
 
-//       array.push(...data.results);
-//     }
-//     // console.log(array);
+    const priceLevelMap: Record<number, string> = {
+      1: "Cheap",
+      2: "Moderate",
+      3: "Expensive",
+      4: "Very Expensive",
+    };
 
-//     // return array;
+    const details = {
+      name: data.name,
+      address: data.location?.formatted_address || "",
+      cuisine: data.categories?.map((cat: any) => cat.name).join(", ") || "",
+      rating: data.rating ?? "N/A",
+      price_level: (typeof data.price === "number" && priceLevelMap[data.price]) ? priceLevelMap[data.price] : "N/A",
+      operating_hours: data.hours?.display || "N/A",
+    };
 
-//       /* Create a map to count the number of times a place with the same fsq_id appears */
-//       const placeMap = new Map();
-//       array.forEach((place) => {
-//         const id = place.fsq_id;
-//         if (!placeMap.has(id)) {
-//           placeMap.set(id, { place, count: 1 })
-//         } else {
-//           placeMap.get(id).count++;
-//         }
-//       });
+    const obj: any = {};
+    Object.entries(details).forEach(([key, value]) => {
+      obj[key] = value;
+      obj.photo = `${photoUrl[0].prefix}300x300${photoUrl[0].suffix}`;
+    });
+    const detailsJson = JSON.stringify(obj);
 
-//       // console.log(placeMap);
+    return JSON.parse(detailsJson);
+  } catch (error) {
+    console.error("Error fetching restaurant details:", error);
+    throw error;
+  }
+};
 
-//       // Filter places that appear for more than one cuisine
-//       const multiCuisinePlaces = Array.from(placeMap.values())
-//         .filter((entry) => entry.count == 1)
-//         .map((entry) => entry.place);
 
-//       return multiCuisinePlaces;
-//   // }
-// };
-
-// export const fetchRestaurants = async () => {};
-
-// // return data;
-
-// // module.exports = {
-// //   getQueryInJSON,
-// //   findQueryAPI,
-// //   fetchRestaurants,
-// // };
+/**
+ * DOCU: This function is used to restaurant photo from the FourSquare API based on the placeId. <br>
+ * This is being called in the `findRestaurantDetails` <br>
+ * Last Updated Date: June 26, 2025 <br>
+ * @function
+ * @params {string} placeId
+ * @returns {Promise<void>}
+ * @author Kas
+ */
+const getRestaurantsPhoto = async (placeId: string): Promise<any> => {
+  try {
+    const photosRes = await fetch(`${FS_URI}/${placeId}/photos`, {
+      method: "GET",
+      headers: {
+        Accept: "application/json",
+        Authorization: FS_API_KEY,
+      },
+    });
+    const photo = await photosRes.json();
+    return photo;
+  } catch (error) {
+    console.error("Error fetching restaurant photo:", error);
+    throw error;
+  }
+};
