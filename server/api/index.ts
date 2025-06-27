@@ -81,7 +81,7 @@ export const findRestaurantsFSAPI = async <T extends QueryParamsProps>(
     near: parameters.near,
     query: parameters.food?.join(",") || "",
     open_now: parameters.open_now,
-    limit: 50, 
+    limit: 2,
     rating: parameters.rating,
     price_level: parameters.price_level,
     operating_hours: parameters.operating_hours,
