@@ -1,8 +1,12 @@
 import React, { useState } from "react";
 import toast from "react-hot-toast";
-import { getRestaurants } from "../utils/api/restaurants";
+import {
+  findRestaurantDetails,
+  getRestaurants,
+} from "../utils/api/restaurants";
 export default function Home() {
   const [query, setQuery] = useState<{ message: string }>({ message: "" });
+  const [restaurants, setRestaurants] = useState<any>([]);
 
   const handleSubmit: React.FormEventHandler<HTMLFormElement> = async (
     event: React.FormEvent<HTMLFormElement>
@@ -11,17 +15,24 @@ export default function Home() {
     try {
       console.log("Submitting query...");
 
-      const restaurants = await getRestaurants(query.message); /* Call getRestaurants function to fetch restaurants */
+      const response = await getRestaurants(
+        query.message
+      ); /* Call getRestaurants function to fetch restaurants */
 
-    //   if (!restaurants.error || restaurants.length > 0) {
-    //     console.log(restaurants);
-    //   }
-
+      if (!response.error || response.length > 0) {
+        response.forEach(async (placeId: { fsq_id: string }) => {
+          /* Call findRestaurantDetails function to fetch restaurant details */
+          const getDetails = await findRestaurantDetails(placeId.fsq_id);
+          setRestaurants((prev: any) => [...prev, getDetails]);
+        });
+      }
+      
     } catch (err) {
       toast.error("Network or server error.");
     }
   };
 
+  console.log(restaurants);
   return (
     <div className='flex bg-[url("/images/bg-food.jpeg")] w-screen h-screen justify-center'>
       <div className="h-screen w-1/2 bg-white items-center flex flex-col py-4">
