@@ -34,6 +34,7 @@ export const getRestaurants = async (
       }else if (error_type === "API_ERROR") {   
         res.status(500).json(response); /* 500 Internal Server Error */
       }
+      return;
     }
 
     /* If no error, send the parsed JSON object as a response */
