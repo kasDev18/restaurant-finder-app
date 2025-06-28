@@ -1,5 +1,9 @@
 import express from "express";
-import { findRestaurantDetails, findRestaurantsFSAPI, getQueryInJSON,  } from "../api";
+import {
+  findRestaurantDetails,
+  findRestaurantsFSAPI,
+  getQueryInJSON,
+} from "../api";
 import { QueryParamsProps, QueryProp, QueryErrorProps } from "../types/query";
 
 /**
@@ -23,25 +27,31 @@ export const getRestaurants = async (
 
     /* Convert query to JSON object (should return an object, not a string) */
     const response = await getQueryInJSON(query.message);
-    
 
     // /* Destructure error and error_type from the parsed JSON object */
     const { error_type } = response as QueryErrorProps;
 
+    /* Check if there is an error */
     if (response.error) {
       if (error_type === "INVALID_SEARCH_TYPE") {
         res.status(406).json(response); /* 406 Not Acceptable */
-      }else if (error_type === "API_ERROR") {   
+      } else if (error_type === "API_ERROR") {
         res.status(500).json(response); /* 500 Internal Server Error */
+      } else if (error_type === "NO_LOCATION") {
+        res.status(400).json(response); /* 400 Bad Request */
       }
       return;
     }
 
-    const getRestaurants: any = await findRestaurantsFSAPI(response as QueryParamsProps);
+    /* Get restaurants from FourSquare API */
+    const getRestaurants: any = await findRestaurantsFSAPI(
+      response as QueryParamsProps
+    );
 
+    /* Get details of the restaurants */
     let restaurantDetails: string[] = [];
     const details = await Promise.all(
-      getRestaurants.map(async (place: { fsq_id: string }) => {
+      getRestaurants.map(async (place: { fsq_id: string; food: string }) => {
         const details = await findRestaurantDetails(place.fsq_id);
         restaurantDetails.push(details);
       })
