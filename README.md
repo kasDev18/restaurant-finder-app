@@ -55,7 +55,7 @@ npm run dev
 ## ✨ Features
 
 ### Frontend
-- Beautiful, responsive UI with React, Vite, and Tailwind CSS
+- Beautiful UI with React, Vite, and Tailwind CSS
 - Search by cuisine, restaurant name, or location
 - Dynamic open/closed status with color indicators
 - Star ratings and price level labels ("Cheap", "Moderate", etc.)
