@@ -26,7 +26,7 @@ npm install
 
 ### 3. Set up environment variables
 
-Create a `.env` file in the `server` directory with your API keys:
+Please reach to me...
 
 ```
 FS_API_KEY=your_foursquare_api_key
