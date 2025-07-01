@@ -4,7 +4,7 @@ import {
   findRestaurantsFSAPI,
   getQueryInJSON,
 } from "../api";
-import { QueryParamsProps, QueryProp, QueryErrorProps } from "../types/query";
+import { QueryParamsProps, QueryProp, QueryErrorProps, QueryResponseProps } from "../types/query";
 
 /**
  * DOCU: This function is used to get the restaurants based on the query. <br>
@@ -25,11 +25,10 @@ export const getRestaurants = async (
     console.log("Receiving query...");
     console.log(query);
 
-    /* Convert query to JSON object (should return an object, not a string) */
-    const response = await getQueryInJSON(query.message);
+    const response = await getQueryInJSON(query.message); /* Convert query to JSON object (should return an object, not a string) */
 
-    // /* Destructure error and error_type from the parsed JSON object */
-    const { error_type } = response as QueryErrorProps;
+    const { error_type } =
+      response as QueryErrorProps; /* Destructure error and error_type from the parsed JSON object */
 
     /* Check if there is an error */
     if (response.error) {
@@ -39,6 +38,8 @@ export const getRestaurants = async (
         res.status(500).json(response); /* 500 Internal Server Error */
       } else if (error_type === "NO_LOCATION") {
         res.status(400).json(response); /* 400 Bad Request */
+      }else if(error_type === "INVALID_RATING"){
+        res.status(406).json(response);
       }
       return;
     }
@@ -47,16 +48,33 @@ export const getRestaurants = async (
     const getRestaurants: any = await findRestaurantsFSAPI(
       response as QueryParamsProps
     );
+    
+    if(getRestaurants.error){
+      res.status(406).json(getRestaurants);
+      return;
+    }
+
+    if (getRestaurants.length === 0) {
+      const errorObj = {
+        error: true,
+        message: "No restaurants found.",
+        details: "No restaurants found",
+      } as QueryErrorProps;
+      res.status(404).json(errorObj); /* 404 Not Found */
+      return;
+    }
 
     /* Get details of the restaurants */
     let restaurantDetails: string[] = [];
     const details = await Promise.all(
-      getRestaurants.map(async (place: { fsq_id: string; food: string }) => {
-        const details = await findRestaurantDetails(place.fsq_id);
+      getRestaurants.map(async<T extends QueryResponseProps>(place: T) => {
+        const details = await findRestaurantDetails(place);
         restaurantDetails.push(details);
       })
     );
 
+    console.log("Restaurants sent successfully!");
+    
     res.status(200).json(JSON.parse(JSON.stringify(restaurantDetails)));
   } catch (error) {
     /* Handle any unexpected errors */
