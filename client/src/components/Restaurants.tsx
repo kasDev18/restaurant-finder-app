@@ -2,25 +2,25 @@ import { AiFillCompass } from "react-icons/ai";
 import { IoIosPricetags } from "react-icons/io";
 
 export default function Restaurants({ restaurants }: any) {
-  const starRating = (rating: number): React.ReactNode => {
-    if (isNaN(rating) || rating <= 0) return "N/A";
-    // Map rating: 1-2: 1 star, 2-4: 2 stars, 4-6: 3 stars, 6-8: 4 stars, 8-10: 5 stars
-    let stars = 1;
-    if (rating > 8) stars = 5;
-    else if (rating > 6) stars = 4;
-    else if (rating > 4) stars = 3;
-    else if (rating > 2) stars = 2;
-    // else stars = 1;
+  const starRating = (rating: number, star_rating: number): React.ReactNode => {
     return (
       <>
         {Array.from({ length: 5 }, (_, i) => (
           <span key={i} className={"text-yellow-400"}>
-            {i < stars ? "★" : "☆"}
+            {i < star_rating ? "★" : "☆"}
           </span>
         ))}
         <span className="ml-1">({rating})</span>
       </>
     );
+  };
+
+  const priceConvertion = (price: number): string => {
+    if (price === 1) return "Cheap";
+    if (price === 2) return "Moderate";
+    if (price === 3) return "Expensive";
+    if (price === 4) return "Very Expensive";
+    return "Luxury";
   };
 
   return (
@@ -83,13 +83,13 @@ export default function Restaurants({ restaurants }: any) {
                   </div>
                   <div className="text-sm text-gray-600 flex p-2 rounded-lg ml-auto flex-col items-center">
                     <span className="text-amber-500 text-md font-bold flex items-center gap-1">
-                      {starRating(restaurant.rating)}
+                      {starRating(restaurant.rating, restaurant.star_rating)}
                     </span>
                   </div>
                 </div>
                 <p className="text-amber-500 flex items-center gap-1">
                   <IoIosPricetags className="text-lg" />{" "}
-                  {restaurant.price}
+                  {priceConvertion(restaurant.price)}
                 </p>
                 <div className="mt-2 ">
                   {restaurant.cuisine.length >= 1 &&
