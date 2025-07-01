@@ -13,6 +13,7 @@ import { queryParams } from "../utils/constants";
 import { getOpenAIOptions, getFSOptions } from "../utils/helpers/options";
 import { filterRestaurants } from "../utils/helpers/filter";
 import { envConfig } from "../config/env";
+import { getStarRating } from "../utils/helpers/rating";
 
 require("dotenv").config();
 
@@ -158,8 +159,14 @@ export const findRestaurantDetails = async (
   place: QueryResponseProps
 ): Promise<any> => {
   try {
-    const data = place;
+    const response: Response = await fetch(
+      `${env.FS_URI}/${place.fsq_id}?fields=fsq_id,name,location,categories,rating,price,hours`,
+      getFSOptions("GET", env.FS_API_KEY as string)
+    );
+    const data: FoursquarePlace = await response.json();
     console.log("Extracting restaurant details...");
+    
+    
 
     const cuisineArray =
       data.categories?.map((cat: any) => [cat.name]) ||
@@ -167,13 +174,13 @@ export const findRestaurantDetails = async (
 
     /* Create an object with the details */
     const details = {
-      name: data.name,
-      address: data.location?.formatted_address || "",
+      name: place.name,
+      address: place.location?.formatted_address || "",
       cuisine: cuisineArray,
-      rating: data.rating ?? "N/A",
-      star_rating: data.star_rating ?? "N/A",
-      price: data.price_level ?? "N/A",
-      open_now: data?.open_now ?? "N/A",
+      rating: place.rating ?? data.rating,
+      star_rating: place.star_rating ?? getStarRating(data.rating as number),
+      price:  place.price_level ?? data.price,
+      open_now: place.open_now ?? false,
     };
 
     const photoUrl: FoursquarePhoto[] = await getRestaurantsPhoto(

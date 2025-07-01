@@ -1,6 +1,7 @@
 import { FilterPlaceParamsProps, QueryResponseProps } from "../../types/query";
 import { getFSOptions } from "./options";
 import { envConfig } from "../../config/env";
+import { getStarRating } from "./rating";
 
 const env: NodeJS.ProcessEnv = envConfig();
 
@@ -54,7 +55,8 @@ export const filterRestaurants = async (
     );
     result = openResults.filter(Boolean) as QueryResponseProps[];
     console.log("Filtered by open now.");
-    // console.log(result);    
+    // console.log(result);
+    
   }
 
   if (parameters.price_level) {
@@ -67,7 +69,7 @@ export const filterRestaurants = async (
         if (priceLevel && priceLevel.price === parameters.price_level) {
           place.price_level = priceLevel.price;
           return place;
-        }
+        };
         return null;
       })
     );
@@ -84,15 +86,7 @@ export const filterRestaurants = async (
         const rating = await getPlaceRating(place.fsq_id, parameters.rating);
         if (rating && rating.fsq_id === place.fsq_id) {
           
-          const mapRatingToStars = (rating: number | undefined): number => {
-            if (typeof rating !== "number") return 0;
-            if (rating <= 2) return 1;
-            if (rating <= 4) return 2;
-            if (rating <= 6) return 3;
-            if (rating <= 8) return 4;
-            return 5;
-          };
-          const starRating = mapRatingToStars(rating.rating);
+          const starRating = getStarRating(rating.rating);
           place.star_rating = starRating;
           place.rating = rating.rating;
 
