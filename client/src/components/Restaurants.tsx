@@ -89,7 +89,7 @@ export default function Restaurants({ restaurants }: any) {
                 </div>
                 <p className="text-amber-500 flex items-center gap-1">
                   <IoIosPricetags className="text-lg" />{" "}
-                  {restaurant.price_level}
+                  {restaurant.price}
                 </p>
                 <div className="mt-2 ">
                   {restaurant.cuisine.length >= 1 &&
