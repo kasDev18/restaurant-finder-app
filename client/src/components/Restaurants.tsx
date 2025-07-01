@@ -1,7 +1,8 @@
 import { AiFillCompass } from "react-icons/ai";
 import { IoIosPricetags } from "react-icons/io";
+import React from "react";
 
-export default function Restaurants({ restaurants }: any) {
+export default function Restaurants({ restaurants, loading }: { restaurants: any[]; loading?: boolean }) {
   const starRating = (rating: number, star_rating: number): React.ReactNode => {
     return (
       <>
@@ -25,7 +26,12 @@ export default function Restaurants({ restaurants }: any) {
 
   return (
     <>
-      {restaurants.length ? (
+      {loading ? (
+        <div className="flex flex-col items-center  w-full h-full py-20">
+          <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-amber-400 mb-4"></div>
+          <span className="text-amber-500 text-lg font-semibold">Loading restaurants...</span>
+        </div>
+      ) : restaurants.length ? (
         <section className="flex flex-col w-[40vw] h-full overflow-y-scroll">
           {restaurants.map((restaurant: any, index: number) => (
             <div
@@ -54,23 +60,6 @@ export default function Restaurants({ restaurants }: any) {
                     </div>
 
                     <div className="flex items-start gap-2">
-                      {/* <AiFillClockCircle className="w-5 h-5 mt-0.5" /> */}
-                      {/* <div className="flex flex-col flex-wrap gap-y-1">
-                        {restaurant.operating_hours &&
-                        typeof restaurant.operating_hours === "string"
-                          ? restaurant.operating_hours
-                              .split(/[,;]+/)
-                              .map((segment: string, idx: number) => (
-                                <span
-                                  key={idx}
-                                  className="leading-tight whitespace-nowrap"
-                                >
-                                  {segment.trim()}
-                                </span>
-                              ))
-                          : restaurant.operating_hours}
-                      </div> */}
-
                       <div className={`flex items-center gap-1 font-bold px-2 py-1 rounded-full text-xs
                         ${restaurant.open_now ? "bg-green-100 text-green-700 border border-green-300 animate-pulse" : "bg-red-100 text-red-700 border border-red-300"}
                       `}>

@@ -6,6 +6,7 @@ import Restaurants from "./Restaurants";
 export default function Home() {
   const [query, setQuery] = useState<{ message: string }>({ message: "" });
   const [restaurants, setRestaurants] = useState<any>([]);
+  const [loading, setLoading] = useState<boolean>(false);
 
   /* Function to handle form submission */
   const handleSubmit: React.FormEventHandler<HTMLFormElement> = async (
@@ -14,6 +15,7 @@ export default function Home() {
     event.preventDefault();
     try {
       console.log("Submitting request...");
+      setLoading(true);
       const response = await getRestaurants(
         query.message
       ); /* Call getRestaurants function to fetch restaurants */
@@ -27,12 +29,12 @@ export default function Home() {
 
       console.log("Restaurants fetched successfully!");
 
+      setLoading(false);
       setRestaurants(response); /* Set the fetched restaurants in the state */
     } catch (err) {
       toast.error("Network or server error.");
     }
   };
-  console.log(restaurants);
   
 
   return (
@@ -65,7 +67,7 @@ export default function Home() {
             <svg className="inline-block w-5 h-5 ml-1 text-amber-700" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 104.5 4.5a7.5 7.5 0 0012.15 12.15z"></path></svg>
           </button>
         </form>
-        <Restaurants restaurants={restaurants}/>
+        <Restaurants restaurants={restaurants} loading={loading} />
       </div>
     </main>
   );
