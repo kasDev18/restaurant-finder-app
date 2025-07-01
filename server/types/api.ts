@@ -1,10 +1,4 @@
-export type OpenAIProps<T = string> = {
-  OPENAI_APP_BASE_URI: T;
-  OPENAI_API_KEY: T;
-  OPENAI_APP_MODEL: T;
-};
-
-export interface OpenAIResponseProps<T = string> {
+export interface OpenAIResponseContent<T = string> {
   choices: {
     message: {
       content: T;
@@ -12,25 +6,32 @@ export interface OpenAIResponseProps<T = string> {
   }[];
 }
 
-export type FSAPIProps<T = string> = {
-    FS_URI: T;
-    FS_API_KEY: T;
+/* FourSquare API types */
+interface RegularHours {
+  day: number;  // e.g. "1,2,3"
+  open: string
+  close: string;
+}
+export interface Hours {
+  display?: string;
+  open_now?: boolean;
+  regular?: RegularHours[];
 }
 
-export type FSResId<T = string> = {
-    fsq_id: T
-}
-
-
-interface FoursquareCategory { id: string; name: string; }
-interface FoursquareLocation { formatted_address?: string; }
-export interface FoursquarePhoto { prefix: string; suffix: string; }
-export interface FoursquarePlace {
-  fsq_id: string;
-  name: string;
+interface FoursquareCategory<T = string> { id: T; name: T; }
+interface FoursquareLocation<T = string> { formatted_address?: T; }
+export interface FoursquarePhoto<T = string> { prefix: T; suffix: T; }
+export interface FoursquarePlace<T = string, N = number> {
+  fsq_id: T;
+  name: T;
   location?: FoursquareLocation;
   categories?: FoursquareCategory[];
-  rating?: number;
-  price?: string;
-  hours?: { display?: string };
+  rating?: N;
+  price?: T;
+  hours?: { display?: T; };
+}
+
+export interface PlacePriceLvlProps {
+  parameters: { cuisine?: string[], price_level?: number };
+  open_now: boolean;
 }
