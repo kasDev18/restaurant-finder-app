@@ -22,7 +22,9 @@ export default function Home() {
 
       /* Check if there is an error */
       if (response.error) {
-        console.error("Error fetching restaurants:", response.message);
+        setLoading(false);
+          setRestaurants([]);
+        console.error("Error fetching restaurantsssss:", response.message);
         toast.error(response.message);
         return;
       }

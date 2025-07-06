@@ -57,6 +57,7 @@ export const getRestaurants = async (
     if (getRestaurants.length === 0) {
       const errorObj = {
         error: true,
+        error_type: "NO_RESTAURANTS_FOUND",
         message: "No restaurants found.",
         details: "No restaurants found",
       } as QueryErrorProps;
