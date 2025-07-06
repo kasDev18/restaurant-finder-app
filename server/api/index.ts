@@ -15,8 +15,6 @@ import { filterRestaurants } from "../utils/helpers/filter";
 import { envConfig } from "../config/env";
 import { getStarRating } from "../utils/helpers/rating";
 
-require("dotenv").config();
-
 /* Environment variables */
 const env: NodeJS.ProcessEnv = envConfig();
 
